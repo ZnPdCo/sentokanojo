@@ -1,0 +1,18 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"brandlogo", mode="white", time=1000, wait=2500},
+		{"brandlogo", file="caution"},
+		{"brandlogo", file="brand", sysvo="brand"},
+		{"brandlogo", file="em7z7qpzfr3s", movie=1},
+		{"brandlogo", file="artemis"},
+		{"keyskip"},
+		{"brandlogo"},
+		{"text"},
+		line = 25,
+	},
+	label = {
+		label_skip = { block="block_00000", label=6 },
+		top = { block="block_00000", label=1 },
+	},
+}

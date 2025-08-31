@@ -1,0 +1,2798 @@
+astver = 2.0
+ast = {
+	["0030_00001"] = {
+		{"savetitle", text="Chapter. 26"},
+		{"bg", time=2000, file="bg09a", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"姫ノ湯を通常営業させながら、",
+					{"rt2"},
+					"僕と千佳さんはアロマキャンドル風呂の準備を",
+					{"rt2"},
+					"着々と行っていた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"While we ran Himenoyu as usual, Chika and I were steadily preparing for the Aroma Candle Bath event.",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "0030_00002",
+		line = 17,
+	},
+	["0030_00002"] = {
+		{"bg", file="ev_com_c02_01", path=":ev/ev_com_c02/", set="ev_com_c02"},
+		{"bgm", file="bgm05"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00434", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「こんにちは～、姫ノ湯です！",
+					{"rt2"},
+					"よかったらチラシを貰って下さい～！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Hello~, We're from Himenoyu! Please take a flier!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00001",
+		linknext = "0030_00003",
+		line = 29,
+	},
+	["0030_00003"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00707", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「来週から四日間限定の",
+					{"rt2"},
+					"アロマキャンドル風呂です～！",
+					{"rt2"},
+					"どうぞ～！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["From next week, a four-day limited Aroma Candle Bath will start~! Please~!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00002",
+		linknext = "0030_00004",
+		line = 38,
+	},
+	["0030_00004"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"常連客はもちろん、",
+					{"rt2"},
+					"道行く人にもチラシを配っていく。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"We passed out fliers not only to regular customers but also to passersby.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00003",
+		linknext = "0030_00005",
+		line = 45,
+	},
+	["0030_00005"] = {
+		{"bg", x=256, y=130, zoom=70, time=500, file="zev_com_c02_01", path=":ev/ev_com_c02/", set="ev_com_c02", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"通行人１"},
+					"「アロマキャンドルって面白そうね」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"通行人１", "Foot passenger1"},
+					[["Aroma candles… It looks interesting."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00004",
+		linknext = "0030_00006",
+		line = 54,
+	},
+	["0030_00006"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00708", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「はいっ、ぜひ遊びに来て下さいね」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Yes! Please come and visit us."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00005",
+		linknext = "0030_00007",
+		line = 61,
+	},
+	["0030_00007"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"受け取ってくれたチラシを",
+					{"rt2"},
+					"眺めている姿を見ると、",
+					{"rt2"},
+					"ホッとする。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I was relieved to see the passerby looking at the fliers I handed them.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00006",
+		linknext = "0030_00008",
+		line = 69,
+	},
+	["0030_00008"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ちなみにZwitter効果もあってか、チラシの",
+					{"rt2"},
+					"デザインは人気のイラストレーターさんが",
+					{"rt2"},
+					"無償で引き受けてくれた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"By the way, probably because of the Zwitter effect, a popular illustrator took over the design of the flier for free.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00007",
+		linknext = "0030_00009",
+		line = 77,
+	},
+	["0030_00009"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"なんでも姫ノ湯のファンらしく、",
+					{"rt2"},
+					"ぜひ協力がしたいって連絡があったみたい。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I've heard that the person seemed to be a fan of Himenoyu, and contacted us to offer to help in any way.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00008",
+		linknext = "0030_00010",
+		line = 84,
+	},
+	["0030_00010"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"姉ちゃんが嬉しそうに語っていたのを思い出す。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I remembered my sister talking happily.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00009",
+		linknext = "0030_00011",
+		line = 90,
+	},
+	["0030_00011"] = {
+		{"bg", time=500, file="ev_com_c02_01", path=":ev/ev_com_c02/", set="ev_com_c02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00435", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「すごいよね。",
+					{"rt2"},
+					"そんな方まで応援してくれるなんて……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["It's amazing such a person would support us, isn't it… ?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00010",
+		linknext = "0030_00012",
+		line = 100,
+	},
+	["0030_00012"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00709", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「うん。それだけ姫ノ湯は",
+					{"rt2"},
+					"愛されてるってことだよね」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Yeah. That shows how much Himenoyu is loved."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00011",
+		linknext = "0030_00013",
+		line = 108,
+	},
+	["0030_00013"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"おばあちゃんが経営していた頃から、",
+					{"rt2"},
+					"変わらず通ってくれているお客さんをはじめ、",
+					{"rt2"},
+					"新たに興味を持ってくれているお客さん達。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Since the time when my Grandma was running the Sento, including customers who have been coming here, and new customers who are newly interested in Himenoyu.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00012",
+		linknext = "0030_00014",
+		line = 116,
+	},
+	["0030_00014"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"もちろん、それだけじゃない。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Of course, that's not all.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00013",
+		linknext = "0030_00015",
+		line = 122,
+	},
+	["0030_00015"] = {
+		{"bg", x=256, y=130, zoom=70, time=500, file="zev_com_c02_01", path=":ev/ev_com_c02/", set="ev_com_c02", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"常連客１"},
+					"「あー、いたいた。",
+					{"rt2"},
+					"あさひちゃん、千佳ちゃん！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"常連客１", "Regular customer1"},
+					[["There you are! Asahi-chan, Chika-chan!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00014",
+		linknext = "0030_00016",
+		line = 132,
+	},
+	["0030_00016"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00710", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「あっ、こんにちは！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Ah, hello!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00015",
+		linknext = "0030_00017",
+		line = 139,
+	},
+	["0030_00017"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"商店街でお世話になっている人達が",
+					{"rt2"},
+					"駆け寄ってきた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The people of the shopping district who were always taking care of us, rushed over.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00016",
+		linknext = "0030_00018",
+		line = 146,
+	},
+	["0030_00018"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00711", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「どうしたんですか？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["What happened?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00017",
+		linknext = "0030_00019",
+		line = 153,
+	},
+	["0030_00019"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"常連客１"},
+					"「姫ノ湯のチラシがなくなったから",
+					{"rt2"},
+					"また何部か分けてもらおうと思ってね」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"常連客１", "Regular customer1"},
+					[["The fliers for Himenoyu are all gone, so I'd like some more."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00018",
+		linknext = "0030_00020",
+		line = 161,
+	},
+	["0030_00020"] = {
+		{"bg", sync=0, face=1, file="zev_com_c02_03", time=400, path=":ev/ev_com_c02/", zoom=70, set="ev_com_c02", ax=1280, ay=720, bx=-640, by=-360, x=256, y=130},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00712", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「ありがとうございますっ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Thank you so much!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00019",
+		linknext = "0030_00021",
+		line = 170,
+	},
+	["0030_00021"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"常連客１"},
+					"「それくらいしかできないけど。",
+					{"rt2"},
+					"頑張ってね」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"常連客１", "Regular customer1"},
+					[["It's the least we can do. Anyway, good luck!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00020",
+		linknext = "0030_00022",
+		line = 178,
+	},
+	["0030_00022"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"色んなお店の人達もチラシを",
+					{"rt2"},
+					"お店に置いてくれたり、",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"People from various stores also put out fliers in their stores,",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00021",
+		linknext = "0030_00023",
+		line = 185,
+	},
+	["0030_00023"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"まだ知らない人達へ姫ノ湯の宣伝を",
+					{"rt2"},
+					"してくれたりする。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"And they have also mentioned Himenoyu to people who do not know about it yet.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00022",
+		linknext = "0030_00024",
+		line = 192,
+	},
+	["0030_00024"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"本当にみんな優しくて、",
+					{"rt2"},
+					"感謝してもしきれない。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"All of them are really kind. I can't thank them enough.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00023",
+		linknext = "0030_00025",
+		line = 199,
+	},
+	["0030_00025"] = {
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", file="bg02a", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"今日は朝から姉ちゃんも手伝いに来てくれた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Today, my sister came to help us from the morning.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00024",
+		linknext = "0030_00026",
+		line = 213,
+	},
+	["0030_00026"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"僕たちは姉ちゃんと一緒に",
+					{"rt2"},
+					"開店前の設備チェックを行う。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"We checked the equipment before opening with her.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00025",
+		linknext = "0030_00027",
+		line = 220,
+	},
+	["0030_00027"] = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0, pass=2},
+		{"bg", file="bg06a", path=":bg/", sync=0},
+		{"fg", ch="あさひ", size="no", mode=3, path=":fg/", file="asa_1", face="困りＡ", x=-300, lv=3, id=11, sync=0, pass=2},
+		{"fg", ch="潤", size="no", mode=3, path=":fg/", file="jun_0", face="無表情Ａ", x=300, lv=3, id=12, sync=0, pass=2},
+		{"extrans"},
+		{"bgm", file="bgm02"},
+		{"fgact", ch="潤", act="おじぎ", lv=3, id=12},
+		{"se", file="se028", id=1},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00713", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「どうだった、姉ちゃん？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["How is it, Jun?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00026",
+		linknext = "0030_00028",
+		line = 243,
+	},
+	["0030_00028"] = {
+		{"fg", ch="潤", size="no", mode=3, path=":fg/", file="jun_0", face="無表情Ａ", x=300, lv=3, id=12},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_jun_00284", ch="jun"},
+			},
+			ja = {
+				{
+					name = {"潤"},
+					"「見た限り、問題はないと思うが……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"潤", "Jun"},
+					[["As far as I can tell, I don't think there are any problems…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00027",
+		linknext = "0030_00029",
+		line = 252,
+	},
+	["0030_00029"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"姉ちゃんは湯沸かし器を",
+					{"rt2"},
+					"細かく確認をしてくれた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"My sister checked the water heater in detail.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00028",
+		linknext = "0030_00030",
+		line = 259,
+	},
+	["0030_00030"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"何と言っても、",
+					{"rt2"},
+					"姫ノ湯で一番心配なのが湯沸かし器……",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"After all, the thing we're most worried about at Himenoyu is the water heater...",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00029",
+		linknext = "0030_00031",
+		line = 266,
+	},
+	["0030_00031"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"老朽化が進んでいて、",
+					{"rt2"},
+					"もう何度目か分からないくらい",
+					{"rt2"},
+					"修理を繰り返している。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It's old and has been repaired more times than I can count.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00030",
+		linknext = "0030_00032",
+		line = 274,
+	},
+	["0030_00032"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"本当は完全に新しいものと",
+					{"rt2"},
+					"取り替えた方がいいけれど",
+					{"rt2"},
+					"今の経営状態じゃ厳しい。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Actually, it would be better to replace it with a completely new one, but it is difficult with our current financial situation.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00031",
+		linknext = "0030_00033",
+		line = 282,
+	},
+	["0030_00033"] = {
+		{"se", stop=1, time=500, id=1},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0, pass=2},
+		{"bg", y=250, file="zbg06a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="あさひ", size="z1", mode=3, resize=1, path=":fg/", file="asa_1", face="照れＡ", x=-380, lv=4, id=7, sync=0, pass=2},
+		{"fg", ch="潤", size="z1", mode=3, resize=1, path=":fg/", file="jun_0", face="無表情Ａ", x=380, lv=4, id=8, sync=0, pass=2},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00714", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「アロマキャンドル風呂は来週から四日間。",
+					{"rt2"},
+					"それまでに壊れる、なんてことは",
+					{"rt2"},
+					"ないよね？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["The Aroma Candle Bath will be available for four days starting next week. It's not like it will break by then, right?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00032",
+		linknext = "0030_00034",
+		line = 301,
+	},
+	["0030_00034"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"僕はチェックをしてくれた",
+					{"rt2"},
+					"姉ちゃんに話しかける。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I asked my sister who checked it.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00033",
+		linknext = "0030_00035",
+		line = 308,
+	},
+	["0030_00035"] = {
+		{"fg", ch="潤", size="z1", mode=3, path=":fg/", file="jun_0", face="浸るＡ", x=380, lv=4, id=8},
+		{"fgact", ch="潤", act="いいえ", lv=4, id=8},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="潤", size="z1", mode=3, path=":fg/", file="jun_0", face="無表情Ａ", x=380, lv=4, id=8},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_jun_00285", ch="jun"},
+			},
+			ja = {
+				{
+					name = {"潤"},
+					"「それは何とも言えないな。",
+					{"rt2"},
+					"前も言ったと思うが、修理は一時しのぎだ。",
+					{"rt2"},
+					"どのみち長くは保たないだろうな」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"潤", "Jun"},
+					[["I'm not sure about that. As I said before, repairs are only a temporary measure. I don't think it'll last for a long time.]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00034",
+		linknext = "0030_00036",
+		line = 321,
+	},
+	["0030_00036"] = {
+		{"fg", ch="あさひ", size="z1", mode=3, path=":fg/", file="asa_1", face="困りＡ", x=-380, lv=4, id=7},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00715", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「だ、だけど！",
+					{"rt2"},
+					"この間みたいに上手くすればなんとか……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["B-But! If we can handle it like we did last time…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00035",
+		linknext = "0030_00037",
+		line = 331,
+	},
+	["0030_00037"] = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0, pass=2},
+		{"bg", x=-400, y=250, file="zbg06a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="潤", size="z1", mode=3, path=":fg/", file="jun_0", face="ムッＡ", lv=4, id=8, sync=0, pass=2},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_jun_00286", ch="jun"},
+			},
+			ja = {
+				{
+					name = {"潤"},
+					"「あのな、あさひ。",
+					{"rt2"},
+					"あれはプールデーと銘打ったから、",
+					{"rt2"},
+					"ぬるま湯でも成り立ったんだ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"潤", "Jun"},
+					[["But that's the thing, Asahi. We were okay with lukewarm water because we had the Pool Day."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00036",
+		linknext = "0030_00038",
+		line = 347,
+	},
+	["0030_00038"] = {
+		{"fg", ch="潤", size="z1", mode=3, path=":fg/", file="jun_0", face="無表情Ａ", lv=4, id=8},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_jun_00287", ch="jun"},
+			},
+			ja = {
+				{
+					name = {"潤"},
+					"「それに夏だから上手く活用ができた。",
+					{"rt2"},
+					"だけど、これから季節が変わっていく」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"潤", "Jun"},
+					[["And because it was summer, we could make good use of it. But the season will change soon."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00037",
+		linknext = "0030_00039",
+		line = 357,
+	},
+	["0030_00039"] = {
+		{"fg", ch="潤", size="z1", mode=3, path=":fg/", file="jun_0", face="ムッＡ", lv=4, id=8},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_jun_00288", ch="jun"},
+			},
+			ja = {
+				{
+					name = {"潤"},
+					"「ぬるま湯のままじゃ銭湯じゃない。",
+					{"rt2"},
+					"湯沸かし器に不備があれば、リスクも高い」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"潤", "Jun"},
+					[["It is not a bath if the water isn't hot. If there is another problem with the water heater, we'll be in big trouble."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00038",
+		linknext = "0030_00040",
+		line = 367,
+	},
+	["0030_00040"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"姉ちゃんの言っていることは正論だけど……。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"What my sister is saying is true, but...",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00039",
+		linknext = "0030_00041",
+		line = 373,
+	},
+	["0030_00041"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00716", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「も、もし、開催中に壊れたら？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["What if it breaks during the event?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00040",
+		linknext = "0030_00042",
+		line = 380,
+	},
+	["0030_00042"] = {
+		{"fg", ch="潤", size="z1", mode=3, path=":fg/", file="jun_0", face="無表情Ａ", lv=4, id=8},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_jun_00289", ch="jun"},
+			},
+			ja = {
+				{
+					name = {"潤"},
+					"「そりゃ、中止になるだろうな」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"潤", "Jun"},
+					[["Then it would be canceled."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00041",
+		linknext = "0030_00043",
+		line = 389,
+	},
+	["0030_00043"] = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0, pass=2},
+		{"bg", file="bg06a", path=":bg/", sync=0},
+		{"fg", ch="千佳", size="no", mode=3, path=":fg/", file="chi_1", face="無表情Ａ", x=-380, lv=3, id=3, sync=0, pass=2},
+		{"fg", ch="あさひ", size="no", mode=3, resize=1, path=":fg/", file="asa_1", face="困りＡ", x=0, lv=3, id=16, sync=0, pass=2},
+		{"fg", ch="潤", size="no", mode=3, resize=1, path=":fg/", file="jun_0", face="無表情Ａ", x=380, lv=3, id=4, sync=0, pass=2},
+		{"extrans", time=500},
+		{"fgact", ch="潤", act="あくび", lv=3, id=4},
+		{"se", file="se028", id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"姉ちゃんは湯沸かし器のフタを閉じると、",
+					{"rt2"},
+					"大きく背伸びをした。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"When she closed the lid of the water heater, she stretched her back.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00042",
+		linknext = "0030_00044",
+		line = 409,
+	},
+	["0030_00044"] = {
+		{"fg", ch="あさひ", size="no", mode=3, path=":fg/", file="asa_1", face="照れＡ", x=0, lv=3, id=16},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00717", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「…………」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					"“…”",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00043",
+		linknext = "0030_00045",
+		line = 418,
+	},
+	["0030_00045"] = {
+		{"fg", ch="潤", size="no", mode=3, path=":fg/", file="jun_0", face="通常Ａ", x=380, lv=3, id=4},
+		{"fgact", ch="潤", act="いいえ", lv=3, id=4},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_jun_00290", ch="jun"},
+			},
+			ja = {
+				{
+					name = {"潤"},
+					"「そんな顔すんな、あさひ。",
+					{"rt2"},
+					"もしもの話だろ。何も私は不安を煽りたくて",
+					{"rt2"},
+					"言ってる訳じゃない」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"潤", "Jun"},
+					[["Don't give me that look, Asahi. It's just a possibility. I'm not saying it because I want to worry you."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00044",
+		linknext = "0030_00046",
+		line = 430,
+	},
+	["0030_00046"] = {
+		{"fg", ch="潤", size="no", mode=3, path=":fg/", file="jun_0", face="無表情Ａ", x=380, lv=3, id=4},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_jun_00291", ch="jun"},
+			},
+			ja = {
+				{
+					name = {"潤"},
+					"「私達にできるのは、",
+					{"rt2"},
+					"銭湯の設備をこまめにチェックすること」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"潤", "Jun"},
+					[["What we can do is to check the facilities of the public bath diligently."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00045",
+		linknext = "0030_00047",
+		line = 440,
+	},
+	["0030_00047"] = {
+		{"fg", ch="潤", size="no", mode=3, path=":fg/", file="jun_0", face="通常Ａ", x=380, lv=3, id=4},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_jun_00292", ch="jun"},
+			},
+			ja = {
+				{
+					name = {"潤"},
+					"「少しでも気になることがあれば、互いに報告。",
+					{"rt2"},
+					"あとは姫ノ湯の女神様にでも祈っとけ。",
+					{"rt2"},
+					"いいな」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"潤", "Jun"},
+					[["If you have any concerns, let each other know. After that, pray to the goddess of Himenoyu. All right?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00046",
+		linknext = "0030_00048",
+		line = 451,
+	},
+	["0030_00048"] = {
+		{"fg", ch="あさひ", size="no", mode=3, path=":fg/", file="asa_1", face="困りＡ", x=0, lv=3, id=16},
+		{"fgact", ch="あさひ", act="うなづく", lv=3, id=16},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00718", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「…………うん」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["… all right."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00047",
+		linknext = "0030_00049",
+		line = 461,
+	},
+	["0030_00049"] = {
+		{"fg", ch="千佳", size="no", mode=3, path=":fg/", file="chi_1", face="微笑みＡ", x=-380, lv=3, id=3},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00436", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「だ、大丈夫だよ、あさひちゃんっ。",
+					{"rt2"},
+					"修理したばかりだし……ねっ？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["O-Okay, Asahi-chan. We have just repaired it... right?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00048",
+		linknext = "0030_00050",
+		line = 471,
+	},
+	["0030_00050"] = {
+		{"se", stop=1, time=500, id=1},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0, pass=2},
+		{"bg", x=400, y=250, file="zbg06a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="千佳", size="z1", mode=3, resize=1, path=":fg/", file="chi_1", face="微笑みＡ", x=-320, lv=4, id=9, sync=0, pass=2},
+		{"fg", ch="あさひ", size="z1", mode=3, resize=1, path=":fg/", file="asa_1", face="驚きＡ", x=250, lv=4, id=10, sync=0, pass=2},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"千佳さんは僕の背中をそっと撫でてくれる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Chika gently stroked my back.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00049",
+		linknext = "0030_00051",
+		line = 487,
+	},
+	["0030_00051"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"千佳さんだってきっと色々なことを心",
+					{"rt2"},
+					"配しているのに、僕だけが落ち込んで",
+					{"rt2"},
+					"いるわけにはいかない。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"She is surely worrying about various things, but I just can't help feeling depressed.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00050",
+		linknext = "0030_00052",
+		line = 495,
+	},
+	["0030_00052"] = {
+		{"fg", ch="あさひ", size="z1", mode=3, resize=1, path=":fg/", file="asa_4", face="通常Ｂ", x=250, lv=4, id=10},
+		{"fgact", ch="あさひ", act="うなづく", lv=4, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00719", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「そうだよね……。",
+					{"rt2"},
+					"今は成功させることだけを考えなくちゃ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["That's right... Now we just have to visualize having success."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00051",
+		linknext = "0030_00053",
+		line = 506,
+	},
+	["0030_00053"] = {
+		{"fg", ch="千佳", size="z1", mode=3, path=":fg/", file="chi_1", face="通常Ａ", x=-320, lv=4, id=9},
+		{"fgact", ch="千佳", act="うんうん", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="千佳", size="z1", mode=3, resize=1, path=":fg/", file="chi_4", face="ウィンクＢ", x=-320, lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00437", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「そうそう。その意気だよ、あさひちゃん！",
+					{"rt2"},
+					"潤さんもいるうちに水質の",
+					{"rt2"},
+					"チェックしましょう」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Y-Yeah. That's right, Asahi-chan! Let's check the water quality while Jun-san is here."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00052",
+		linknext = "0030_00054",
+		line = 519,
+	},
+	["0030_00054"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"僕は千佳さんと姉ちゃんの後に続いた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I followed Chika and my sister.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00053",
+		linknext = "0030_00055",
+		line = 525,
+	},
+	["0030_00055"] = {
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", file="bg02a", path=":bg/"},
+		{"bgm", file="bgm01"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そして、アロマキャンドル風呂前日――。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The day before the Aroma Candle Bath.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00054",
+		linknext = "0030_00056",
+		line = 541,
+	},
+	["0030_00056"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"今日は最終チェックのため、銭湯は臨時休業。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The Sento is temporarily closed for the final check today.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00055",
+		linknext = "0030_00057",
+		line = 547,
+	},
+	["0030_00057"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"あいにく姉ちゃんは仕事で忙しくて",
+					{"rt2"},
+					"顔を出せないみたい。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Unfortunately, my sister is so busy with work that she can't make an appearance here.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00056",
+		linknext = "0030_00058",
+		line = 554,
+	},
+	["0030_00058"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"僕と千佳さんは何往復もしながら、",
+					{"rt2"},
+					"アロマキャンドル風呂に必要なものを",
+					{"rt2"},
+					"運び終えたあと、",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Chika and I went back and forth carrying what we needed for the event.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00057",
+		linknext = "0030_00059",
+		line = 562,
+	},
+	["0030_00059"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"昼食のために一度家に戻った。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Then, we went into the kitchen for lunch.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00058",
+		linknext = "0030_00060",
+		line = 568,
+	},
+	["0030_00060"] = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0, pass=2},
+		{"bg", file="bg04a", path=":bg/", sync=0},
+		{"fg", ch="あさひ", size="no", mode=3, resize=1, path=":fg/", file="asa_4", face="考えるＢ", lv=3, id=10, sync=0, pass=2},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"千佳さんがキッチンにいる間、",
+					{"rt2"},
+					"他に何か忘れたものがないかを",
+					{"rt2"},
+					"チェックをする。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"While Chika was in the kitchen, I checked that we hadn't forgotten anything.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00059",
+		linknext = "0030_00061",
+		line = 585,
+	},
+	["0030_00061"] = {
+		{"fg", ch="あさひ", size="no", mode=3, path=":fg/", file="asa_4", face="通常Ｂ", lv=3, id=10},
+		{"fgact", ch="あさひ", act="うんうん", lv=3, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00720", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「ライトも揃ってるし、アロマ石鹸も",
+					{"rt2"},
+					"補充したし……",
+					{"rt2"},
+					"あとは……花を受け取るだけか」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["We have all the lights, and we filled up the aroma soap… we just need to get the flowers now."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00060",
+		linknext = "0030_00062",
+		line = 597,
+	},
+	["0030_00062"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"本格的な飾り付けは夕方から行うつもり。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Full-scale decoration will be done in the evening.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00061",
+		linknext = "0030_00063",
+		line = 603,
+	},
+	["0030_00063"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"何度も読み返したリスト表を",
+					{"rt2"},
+					"箱の中にしまい込んで大きく伸びをする。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I put the list that has been read over and over again in the box .",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00062",
+		linknext = "0030_00064",
+		line = 610,
+	},
+	["0030_00064"] = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0, pass=2},
+		{"bg", y=180, file="zbg04a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="あさひ", size="z1", mode=3, resize=1, path=":fg/", file="asa_4", face="無表情Ｂ", x=250, lv=4, id=10, sync=0, pass=2},
+		{"extrans", time=500},
+		{"se", file="se038", id=1},
+		{"fg", ch="千佳", size="z1", mx=-40, mode=3, resize=1, path=":fg/", file="chi_1", face="通常Ａ", x=-320, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00438", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「あさひちゃん、チャーハンできたよ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Asahi-chan, the fried rice is ready!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00063",
+		linknext = "0030_00065",
+		line = 629,
+	},
+	["0030_00065"] = {
+		{"fg", ch="あさひ", size="z1", mode=3, path=":fg/", file="asa_4", face="通常Ｂ", x=250, lv=4, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00721", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「あ、千佳さんっ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Ah, Chika-san."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00064",
+		linknext = "0030_00066",
+		line = 638,
+	},
+	["0030_00066"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ちょうど千佳さんが居間へ戻ってきた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Chika has just returned to the living room.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00065",
+		linknext = "0030_00067",
+		line = 644,
+	},
+	["0030_00067"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"トレイにはたくさんのお皿が載っている。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"There are many plates on the tray.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00066",
+		linknext = "0030_00068",
+		line = 650,
+	},
+	["0030_00068"] = {
+		{"fg", ch="あさひ", size="z1", mode=3, path=":fg/", file="asa_4", face="目が星Ｂ", x=250, lv=4, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00722", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「今日は何を作ったの？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["What did you make today?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00067",
+		linknext = "0030_00069",
+		line = 659,
+	},
+	["0030_00069"] = {
+		{"fg", ch="千佳", size="z1", mode=3, path=":fg/", file="chi_1", face="微笑みＡ", x=-320, lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00439", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「んーとね、今日はどんな味がいいか",
+					{"rt2"},
+					"分からなかったから……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Mm, I didn't know what kind of flavor would be good today…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00068",
+		linknext = "0030_00070",
+		line = 669,
+	},
+	["0030_00070"] = {
+		{"bgm", stop=1},
+		{"se", stop=1, time=500, id=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"se", file="se038", id=1},
+		{"bg", file="ev_com_c07_01", path=":ev/ev_com_c07/", set="ev_com_c07"},
+		{"bgm", file="bgm04"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"千佳さんは照れながら、",
+					{"rt2"},
+					"テーブルの上に何種類もの",
+					{"rt2"},
+					"チャーハンを並べた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Looking embarrassed, Chika put various kinds of fried rice on the table.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00069",
+		linknext = "0030_00071",
+		line = 688,
+	},
+	["0030_00071"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00723", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「わぁ～、すごく美味しそう！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Wow, it looks really good!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00070",
+		linknext = "0030_00072",
+		line = 695,
+	},
+	["0030_00072"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"カレーにレタスに五穀米チャーハン！",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					[["Fried rice with curry flavor, lettuce, and five-grain rice!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00071",
+		linknext = "0030_00073",
+		line = 701,
+	},
+	["0030_00073"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"どれも僕が大好きなチャーハンばかりだ。",
+					{"rt2"},
+					"香ばしい匂いにお腹の音がぐぅと鳴った。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"All of them are types of fried rice that I love. The fragrant smell made my stomach growl.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00072",
+		linknext = "0030_00074",
+		line = 708,
+	},
+	["0030_00074"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00724", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「ね、千佳さん。もう食べて良い？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Hey, Chika-san. Can I start eating now?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00073",
+		linknext = "0030_00075",
+		line = 715,
+	},
+	["0030_00075"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00440", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「どうぞ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Sure!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00074",
+		linknext = "0030_00076",
+		line = 722,
+	},
+	["0030_00076"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00725", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「いただきまーす！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Itadakimaas (I'll enjoy the meal) !"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00075",
+		linknext = "0030_00077",
+		line = 729,
+	},
+	["0030_00077"] = {
+		{"bg", x=-384, y=-210, zoom=80, time=500, file="zev_com_c07_01", path=":ev/ev_com_c07/", set="ev_com_c07", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"スプーンを手に取り、順番に食べていく。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I picked up a spoon and ate from the different plates one by one.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00076",
+		linknext = "0030_00078",
+		line = 737,
+	},
+	["0030_00078"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00726", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「んんんっーっ、美味しいっ！",
+					{"rt2"},
+					"やっぱり千佳さんのチャーハンは最高♪」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Mmm, it's delicious! No wonder, your fried rice is the best!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00077",
+		linknext = "0030_00079",
+		line = 745,
+	},
+	["0030_00079"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"スパイシーなカレー味はさらに食をそそるし、",
+					{"rt2"},
+					"レタスはシャキシャキした歯ごたえがお気に入り。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The spicy curry taste is even more intriguing, and the lettuce is my favorite for its crispy texture.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00078",
+		linknext = "0030_00080",
+		line = 752,
+	},
+	["0030_00080"] = {
+		{"bg", sync=0, face=1, file="zev_com_c07_05", time=400, path=":ev/ev_com_c07/", zoom=80, set="ev_com_c07", ax=1280, ay=720, bx=-640, by=-360, x=-384, y=-210},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それに五穀米チャーハン。",
+					{"rt2"},
+					"野菜もたっぷり入っていて、健康にすごくいい。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"And five-grain rice fried rice. It also contains plenty of vegetables, which is very good for my health.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00079",
+		linknext = "0030_00081",
+		line = 761,
+	},
+	["0030_00081"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00727", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「一度にこんなに食べられるって幸せだよね」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["I'm happy to be able to eat this much at once."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00080",
+		linknext = "0030_00082",
+		line = 770,
+	},
+	["0030_00082"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"あっという間にお皿は空になっていく。",
+					{"rt2"},
+					"その様子を千佳さんは驚いたように見ていた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The plates became empty in no time. She was surprised to see the situation.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00081",
+		linknext = "0030_00083",
+		line = 779,
+	},
+	["0030_00083"] = {
+		{"bg", x=10, y=130, zoom=70, time=500, file="zev_com_c07_07", path=":ev/ev_com_c07/", set="ev_com_c07", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00728", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「どうしたの、千佳さん？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["What's wrong, Chika-san?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00082",
+		linknext = "0030_00084",
+		line = 788,
+	},
+	["0030_00084"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00441", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「さすがに作りすぎちゃったって",
+					{"rt2"},
+					"思ってたんだけど……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["I thought I made too much, but…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00083",
+		linknext = "0030_00085",
+		line = 796,
+	},
+	["0030_00085"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00442", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「あさひちゃんって",
+					{"rt2"},
+					"すごくよく食べるんだなって。",
+					{"rt2"},
+					"そんなに細いのに……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Asahi-chan, you eat a lot. Even though you're so slim…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00084",
+		linknext = "0030_00086",
+		line = 805,
+	},
+	["0030_00086"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00729", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「ほらっ、私ってば大食いだから……！",
+					{"rt2"},
+					"まだまだ食べたいくらいだし」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Look, I'm a big eater...! I'm still hungry."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00085",
+		linknext = "0030_00087",
+		line = 813,
+	},
+	["0030_00087"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"男の胃袋だから、なんて言えない。",
+					{"rt2"},
+					"誤魔化すように笑うと、千佳さんは",
+					{"rt2"},
+					"すっと立ち上がった。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I can't say it's because I have the appetite of a man. When I laughed it off, she stood up instantly.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00086",
+		linknext = "0030_00088",
+		line = 821,
+	},
+	["0030_00088"] = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0, pass=2},
+		{"bg", file="bg04a", path=":bg/", sync=0},
+		{"fg", ch="千佳", size="no", mode=3, resize=1, path=":fg/", file="chi_1", face="通常Ａ", lv=3, id=9, sync=0, pass=2},
+		{"extrans"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00443", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「ちょっと待っててね、あさひちゃん」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Wait a minute, Asahi-chan."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00087",
+		linknext = "0030_00089",
+		line = 835,
+	},
+	["0030_00089"] = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule=139, wait=500, file="black", path=":bg/", vague=40},
+		{"fg", mode=-2, sync=0, pass=2},
+		{"bg", y=180, file="zbg04a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="千佳", size="z1", mode=3, resize=1, path=":fg/", file="chi_4", face="ウィンクＢ", lv=4, id=9, sync=0, pass=2},
+		{"extrans", rule=139, vague=40},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"再び千佳さんが戻ってくる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"She came back again.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00088",
+		linknext = "0030_00090",
+		line = 850,
+	},
+	["0030_00090"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"その手には、今まで見たことのない",
+					{"rt2"},
+					"チャーハンがあった。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"In her hands, she had a type of fried rice that I had never seen before.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00089",
+		linknext = "0030_00091",
+		line = 857,
+	},
+	["0030_00091"] = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"bg", zoom=150, speed=5000, file="zev_com_c07_06", path=":ev/ev_com_c07/", x2=80, y2=-720, x=80, y=-690, set="ev_com_c07", ax=1280, ay=720, bx=-640, by=-360},
+		{"ex", time=2000, func="wait"},
+		{"bg", file="ev_com_c07_06", path=":ev/ev_com_c07/", set="ev_com_c07"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00730", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「なに、それ……すごく可愛いっ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["What's that... it's so cute!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00090",
+		linknext = "0030_00092",
+		line = 872,
+	},
+	["0030_00092"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"茶色いチャーハンのまんなかには、",
+					{"rt2"},
+					"トロトロの温泉卵。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"In the middle of the brown fried rice, there was a runny hot spring egg.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00091",
+		linknext = "0030_00093",
+		line = 879,
+	},
+	["0030_00093"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"その周りにはキャベツが",
+					{"rt2"},
+					"綺麗に飾られている。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The cabbage is beautifully decorated around it.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00092",
+		linknext = "0030_00094",
+		line = 886,
+	},
+	["0030_00094"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00731", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「なんか、ひまわりみたいだね」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["It kind of looks like a sunflower, doesn't it?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00093",
+		linknext = "0030_00095",
+		line = 893,
+	},
+	["0030_00095"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"目の前に置かれたチャーハンを",
+					{"rt2"},
+					"まじまじ眺めていると、",
+					{"rt2"},
+					"千佳さんが恥ずかしそうに笑った。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Chika laughed embarrassedly as I stared at the fried rice placed in front of me.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00094",
+		linknext = "0030_00096",
+		line = 901,
+	},
+	["0030_00096"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00444", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「実はね、あさひちゃんを",
+					{"rt2"},
+					"イメージして作ったんだ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Actually, I made this with the image of you, Asahi-chan."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00095",
+		linknext = "0030_00097",
+		line = 909,
+	},
+	["0030_00097"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00732", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「えっ、私を？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Huh? Me?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00096",
+		linknext = "0030_00098",
+		line = 916,
+	},
+	["0030_00098"] = {
+		{"bg", x=640, y=200, time=500, file="zev_com_c07_06", path=":ev/ev_com_c07/", set="ev_com_c07", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"驚いて顔を上げる。",
+					{"rt2"},
+					"心なしか千佳さんの頬は赤い。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I was surprised and raised my face. Her cheeks seemed red.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00097",
+		linknext = "0030_00099",
+		line = 925,
+	},
+	["0030_00099"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00445", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「いつも元気で明るくて、",
+					{"rt2"},
+					"可愛いあさひちゃん。",
+					{"rt2"},
+					"ひまわりみたいだなって思って」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Always cheerful, bright and cute, Asahi-chan. I thought you were like a sunflower."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00098",
+		linknext = "0030_00100",
+		line = 934,
+	},
+	["0030_00100"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00446", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「だから……そのチャーハンの名前は",
+					{"rt2"},
+					"『あさひスペシャルチャーハン』だよ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["That's why... It's called 'Asahi Special Fried Rice'."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00099",
+		linknext = "0030_00101",
+		line = 942,
+	},
+	["0030_00101"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00733", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「あさひスペシャルチャーハン……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Asahi Special Fried Rice…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00100",
+		linknext = "0030_00102",
+		line = 949,
+	},
+	["0030_00102"] = {
+		{"bg", x=10, y=120, zoom=70, time=500, file="zev_com_c07_06", path=":ev/ev_com_c07/", set="ev_com_c07", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00447", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「……ッ、なんてね！",
+					{"rt2"},
+					"やだな、私……何言って……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["... Ooh! No, I... what am I saying…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00101",
+		linknext = "0030_00103",
+		line = 959,
+	},
+	["0030_00103"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00734", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「ううんっ。すごく嬉しいよ、千佳さん。",
+					{"rt2"},
+					"ありがとう！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Great! I'm very happy, Chika-san. Thank you!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00102",
+		linknext = "0030_00104",
+		line = 967,
+	},
+	["0030_00104"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"千佳さんが僕を想って作ってくれたチャーハン。",
+					{"rt2"},
+					"嬉しくてだらしなく頬が緩む。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"A type of fried rice that Chika-san made especially for me. I felt so happy that I broke out into a smile.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00103",
+		linknext = "0030_00105",
+		line = 974,
+	},
+	["0030_00105"] = {
+		{"bg", x=-640, y=200, zoom=100, time=500, file="zev_com_c07_07", path=":ev/ev_com_c07/", set="ev_com_c07", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00735", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「えへへっ。全部、食べていい？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Teeheeh. Can I eat this all?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00104",
+		linknext = "0030_00106",
+		line = 983,
+	},
+	["0030_00106"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00448", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「……！　うん、もちろんっ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["… ! Yeah, of course!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00105",
+		linknext = "0030_00107",
+		line = 990,
+	},
+	["0030_00107"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00736", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「じゃ、早速！",
+					{"rt2"},
+					"あさひスペシャルチャーハン、",
+					{"rt2"},
+					"いただきます！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Then, immediately! Asahi special fried rice, thanks!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00106",
+		linknext = "0030_00108",
+		line = 999,
+	},
+	["0030_00108"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"千佳さんの心がいっぱい込められている",
+					{"rt2"},
+					"チャーハンは、他のチャーハンよりも",
+					{"rt2"},
+					"暖かくて美味しくて。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The fried rice filled with Chika's heart was warmer and tastier than other fried rice.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00107",
+		linknext = "0030_00109",
+		line = 1007,
+	},
+	["0030_00109"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"僕はひと口ひと口を",
+					{"rt2"},
+					"噛みしめるように大事に食べた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I ate it carefully to savor every bite.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0030_00108",
+		linknext = "block_00109",
+		line = 1014,
+	},
+	block_00109 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="main27"},
+		{"text"},
+		linkback = "0030_00109",
+		line = 1021,
+	},
+	label = {
+		top = { block="0030_00001", label=1 },
+	},
+}

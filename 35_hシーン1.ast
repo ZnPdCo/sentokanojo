@@ -1,0 +1,5956 @@
+astver = 2.0
+ast = {
+	["0001_00001"] = {
+		{"savetitle", text="Chapter. 35"},
+		{"bg", speed=60000, time=2000, file="zbg09c", path=":bg/", x2=0, y2=-360, x=0, y=360, ax=1280, ay=720, bx=-640, by=-360},
+		{"bgm", file="bgm08"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"千佳と一緒に",
+					{"rt2"},
+					"銭湯を切り盛りするようになって数日。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It's been a few days since I started to run Sento with Chika.",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "0001_00002",
+		line = 22,
+	},
+	["0001_00002"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"いつも通り仕事を終えた後、",
+					{"rt2"},
+					"着替えるために部屋へ戻ると、",
+					{"rt2"},
+					"突然千佳がやってきた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"When I returned to my room to change clothes as usual after finishing my work, Chika suddenly visited me.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00001",
+		linknext = "0001_00003",
+		line = 30,
+	},
+	["0001_00003"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00709", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「あの……あさひ……今、大丈夫？",
+					{"rt2"},
+					"私……その……そろそろ……えっと……",
+					{"rt2"},
+					"あさひと一つになりたいっ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Hey... Asahi... Is it okay now? I... well... I think it's about time... um... to become one with Asahi!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00002",
+		linknext = "0001_00004",
+		line = 39,
+	},
+	["0001_00004"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"突然恥ずかしそうに呟く千佳。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Chika suddenly muttered shyly.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00003",
+		linknext = "0001_00005",
+		line = 45,
+	},
+	["0001_00005"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"もう僕たちが付き合い初めて数ヶ月だ。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It's been a few months since we've been dating for the first time.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00004",
+		linknext = "0001_00006",
+		line = 51,
+	},
+	["0001_00006"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"でもまさか千佳の方から",
+					{"rt2"},
+					"誘ってくるとは思わなかった。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"But I never thought that Chika would ask me out.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00005",
+		linknext = "0001_00007",
+		line = 58,
+	},
+	["0001_00007"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01087", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「え……えっと……本当にいいの？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Um... umm... is it really okay?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00006",
+		linknext = "0001_00008",
+		line = 65,
+	},
+	["0001_00008"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00710", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「うん……だって",
+					{"rt2"},
+					"ずっと待ってたんだもん……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Yeah... 'cos I'd been waitin' for a long time…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00007",
+		linknext = "0001_00009",
+		line = 73,
+	},
+	["0001_00009"] = {
+		{"se", file="se037", id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"潤んだ瞳でそう言ってくれる千佳が",
+					{"rt2"},
+					"嬉しくて、そっと布団に横たえた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I was so happy to see Chika saying so with moist eyes, and lay her down gently on the futon.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00008",
+		linknext = "0001_00010",
+		line = 82,
+	},
+	["0001_00010"] = {
+		{"se", file="se018", id=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"bg", speed=30000, file="zev_com_h11_01", path=":ev/ev_com_h11/", x2=-160, y2=-320, x=630, y=130, set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360},
+		{"ex", time=3000, func="wait"},
+		{"bg", zoom=120, speed=10000, file="zev_com_h11_01", path=":ev/ev_com_h11/", x2=880, y2=0, x=890, y=220, set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360},
+		{"ex", time=3000, func="wait"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"bg", file="ev_com_h11_01", path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00711", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「ドキドキ……する……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["So nervous… now…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00009",
+		linknext = "0001_00011",
+		line = 101,
+	},
+	["0001_00011"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01088", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「僕もだよ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Me too…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00010",
+		linknext = "0001_00012",
+		line = 108,
+	},
+	["0001_00012"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"お互いに肌の露出が増えた状態で見つめ合う。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"We stared at each other exposing a lot of skin.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00011",
+		linknext = "0001_00013",
+		line = 114,
+	},
+	["0001_00013"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"千佳の肌はもう何度か見たけれど、",
+					{"rt2"},
+					"改めてこういう雰囲気で見ると緊張する。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I've seen Chika's skin several times, but when I see it in this kind of atmosphere, I get nervous.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00012",
+		linknext = "0001_00014",
+		line = 121,
+	},
+	["0001_00014"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01089", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「このまま……いいんだよね……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["As it is... right...?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00013",
+		linknext = "0001_00015",
+		line = 128,
+	},
+	["0001_00015"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00712", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「うん……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Yes…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00014",
+		linknext = "0001_00016",
+		line = 135,
+	},
+	["0001_00016"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"すごく恥ずかしそうにしながら、",
+					{"rt2"},
+					"それでも頷く千佳。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Chika nodded while being very embarrassed.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00015",
+		linknext = "0001_00017",
+		line = 142,
+	},
+	["0001_00017"] = {
+		{"bg", x=640, y=160, time=500, file="zev_com_h11_01", path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そしてそっと僕の頬に触れてくる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"And she gently touched my cheek.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00016",
+		linknext = "0001_00018",
+		line = 150,
+	},
+	["0001_00018"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00713", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「いいも何も……私の方から",
+					{"rt2"},
+					"誘ってるんだよ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Of course!... From me, asking you out, right… ?"..]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00017",
+		linknext = "0001_00019",
+		line = 158,
+	},
+	["0001_00019"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00714", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「だってもう……",
+					{"rt2"},
+					"我慢できないんだもん……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["'Cos... I can't wait any more…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00018",
+		linknext = "0001_00020",
+		line = 166,
+	},
+	["0001_00020"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01090", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「千佳……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Chika…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00019",
+		linknext = "0001_00021",
+		line = 173,
+	},
+	["0001_00021"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"愛おしそうに僕の頬を撫でながら、",
+					{"rt2"},
+					"小さな声で呟く。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Stroking my cheeks with her love, she muttered in a small voice.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00020",
+		linknext = "0001_00022",
+		line = 180,
+	},
+	["0001_00022"] = {
+		{"bg", time=500, file="ev_com_h11_01", path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そしてそのままゆっくりと",
+					{"rt2"},
+					"僕の肩から腕へと触れていった。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"And then slowly she touched from my shoulder to my arm.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00021",
+		linknext = "0001_00023",
+		line = 189,
+	},
+	["0001_00023"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00715", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「付き合い始めた時から……",
+					{"rt2"},
+					"こうなることをずっと夢見ていたの……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Since we started datin'... I've always dreamed of this…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00022",
+		linknext = "0001_00024",
+		line = 197,
+	},
+	["0001_00024"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00716", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「早く……あさひに",
+					{"rt2"},
+					"抱いて欲しいって……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Soon... I've wanted Asahi... to hold me…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00023",
+		linknext = "0001_00025",
+		line = 205,
+	},
+	["0001_00025"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00717", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「だから……その……こ、これは……",
+					{"rt2"},
+					"私からの夜這い……かな。えへへ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["So... that... this is... kinda... "yobai"(a night crawling)... I wonder, teehee."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00024",
+		linknext = "0001_00026",
+		line = 213,
+	},
+	["0001_00026"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"最高に照れながら、そんなことを言う。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"She said such a thing being exceedingly embarrassing.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00025",
+		linknext = "0001_00027",
+		line = 219,
+	},
+	["0001_00027"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"女の子にここまで言ってもらった以上、",
+					{"rt2"},
+					"僕もひくわけにはいかない。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"As long as the girl told me so far, I can't withdraw that.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00026",
+		linknext = "0001_00028",
+		line = 226,
+	},
+	["0001_00028"] = {
+		{"bg", x=640, y=160, time=500, file="zev_com_h11_01", path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そっとその肌に触れていく。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Gently I touched her skin.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00027",
+		linknext = "0001_00029",
+		line = 234,
+	},
+	["0001_00029"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01091", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「僕も……千佳と",
+					{"rt2"},
+					"早くこういうことしたかった……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Y'know, I also... wanted to do something like this with you soon..."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00028",
+		linknext = "0001_00030",
+		line = 242,
+	},
+	["0001_00030"] = {
+		{"bg", sync=0, face=1, file="zev_com_h11_14", time=400, path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360, x=640, y=160},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00718", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「んっ……あ……",
+					{"rt2"},
+					"私だったらいつでも大丈夫だったのに……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Mmh... Ah... As for me, I'd been always okay…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00029",
+		linknext = "0001_00031",
+		line = 252,
+	},
+	["0001_00031"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01092", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「ごめん……僕に勇気がなかったから……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Sorry... I didn't have the courage…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00030",
+		linknext = "0001_00032",
+		line = 259,
+	},
+	["0001_00032"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00719", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「ふぁ……ん……",
+					{"rt2"},
+					"ううん、そういうあさひも好き……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Fwah... Mmh... Yeah, I like that kinda Asahi…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00031",
+		linknext = "0001_00033",
+		line = 267,
+	},
+	["0001_00033"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"言いながら、今度は腕から肘……",
+					{"rt2"},
+					"そして手の平へ触れてくる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"While saying, this time she touched from my arm to the elbow…",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00032",
+		linknext = "0001_00034",
+		line = 274,
+	},
+	["0001_00034"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"柔らかな千佳の指が",
+					{"rt2"},
+					"僕の指に絡められた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Soft Chika's fingers were entwined with my fingers.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00033",
+		linknext = "0001_00035",
+		line = 281,
+	},
+	["0001_00035"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"同じように僕も千佳のあそこへ",
+					{"rt2"},
+					"そっと触れる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"In the same way, I also gently touched Chika's down there.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00034",
+		linknext = "0001_00036",
+		line = 288,
+	},
+	["0001_00036"] = {
+		{"bg", sync=0, face=1, file="zev_com_h11_15", time=400, path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360, x=640, y=160},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00720", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「ふぁ……ぁ……",
+					{"rt2"},
+					"あさひ……んんっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Fwah... ah... Asahi... Mmh…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00035",
+		linknext = "0001_00037",
+		line = 298,
+	},
+	["0001_00037"] = {
+		{"bg", sync=0, face=1, file="zev_com_h11_14", time=400, path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360, x=640, y=160},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00721", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「はぁ……ぁぁ……",
+					{"rt2"},
+					"あさひの指……綺麗……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Hah... ahh... Asahi's fingers... beautiful…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00036",
+		linknext = "0001_00038",
+		line = 308,
+	},
+	["0001_00038"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01093", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「千佳の方が綺麗だよ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Chika's are more beautiful."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00037",
+		linknext = "0001_00039",
+		line = 315,
+	},
+	["0001_00039"] = {
+		{"bg", time=500, file="ev_com_h11_14", path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00722", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「ん……ふぅぅ……",
+					{"rt2"},
+					"あさひだって……",
+					{"rt2"},
+					"女の子みたいに綺麗だよ？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Mmh... fwhh... Asahi... They're as beautiful as girl's, huh?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00038",
+		linknext = "0001_00040",
+		line = 326,
+	},
+	["0001_00040"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01094", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「あ、あはは……",
+					{"rt2"},
+					"それは喜んでいいのかどうか……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Ah, ahaha... Should I be glas about it…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00039",
+		linknext = "0001_00041",
+		line = 334,
+	},
+	["0001_00041"] = {
+		{"bg", sync=0, face=1, file="ev_com_h11_01", time=400, path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00723", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「んっ……喜んでいいの。初めて会った時、",
+					{"rt2"},
+					"可愛い子だって思ったもん」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Mmh... You should! When I first met you, I thought you were a cute girl."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00040",
+		linknext = "0001_00042",
+		line = 344,
+	},
+	["0001_00042"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"にっこりと笑いながら、静かに指先をさする。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"She stroked my fingertips gently with a smile.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00041",
+		linknext = "0001_00043",
+		line = 350,
+	},
+	["0001_00043"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"もちろん今言ってくれたのは",
+					{"rt2"},
+					"『女装して初めて会った時』のこと",
+					{"rt2"},
+					"だろうけれど。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					[[Of course, what she said now was maybe "when she first met me in dressing as a woman".]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00042",
+		linknext = "0001_00044",
+		line = 358,
+	},
+	["0001_00044"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そんな千佳に昂ぶりながら、",
+					{"rt2"},
+					"僕もゆっくりと千佳のをなぞっていく。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"While being excited such her, I also slowly traced her private parts.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00043",
+		linknext = "0001_00045",
+		line = 365,
+	},
+	["0001_00045"] = {
+		{"bg", x=640, y=160, time=500, file="zev_com_h11_15", path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00724", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「んんんっ！　あっ……",
+					{"rt2"},
+					"はぁぁ……恥ずかしい……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Mmmh! Ah... Hahh... embarrassing…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00044",
+		linknext = "0001_00046",
+		line = 375,
+	},
+	["0001_00046"] = {
+		{"bg", sync=0, face=1, file="zev_com_h11_14", time=400, path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360, x=640, y=160},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00725", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「んん……でも初めて会った時……",
+					{"rt2"},
+					"あさひのこと、",
+					{"rt2"},
+					"可愛いくていいなぁって思ったよ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Mmm... but when I first met you... Asahi, I thought you were cute and nice."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00045",
+		linknext = "0001_00047",
+		line = 386,
+	},
+	["0001_00047"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01095", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「絶対お世辞だよね？",
+					{"rt2"},
+					"僕こそ、千佳のこと初めて見た時、",
+					{"rt2"},
+					"可愛いくてドキドキしたよ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["It's definitely a flattery, isn't it? When I first saw You, Chika, my heart was pounding 'cos you were so cute."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00046",
+		linknext = "0001_00048",
+		line = 395,
+	},
+	["0001_00048"] = {
+		{"bg", sync=0, face=1, file="zev_com_h11_01", time=400, path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360, x=640, y=160},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00726", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「お風呂上がりの時？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["When I was getting out of the bath?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00047",
+		linknext = "0001_00049",
+		line = 404,
+	},
+	["0001_00049"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01096", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「ごめんなさい……",
+					{"rt2"},
+					"あの時は違う意味でドキドキしました」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Sorry... I was nervous in a different meaning at that time."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00048",
+		linknext = "0001_00050",
+		line = 412,
+	},
+	["0001_00050"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00727", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「ふふっ、そうだよね。",
+					{"rt2"},
+					"私も違う意味でドキドキした……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Heheh, that's right. I was also nervous in a different sense…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00049",
+		linknext = "0001_00051",
+		line = 420,
+	},
+	["0001_00051"] = {
+		{"bg", time=500, file="ev_com_h11_01", path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"衝撃的な出会いを思い出しながら、",
+					{"rt2"},
+					"二人で笑う。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Recalling the shocking encounter, we laughed each other.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00050",
+		linknext = "0001_00052",
+		line = 429,
+	},
+	["0001_00052"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"こんな状況だというのに、",
+					{"rt2"},
+					"それで少しだけ緊張が解れるから不思議。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Even in this situation, it's strange because we can release a little tension.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00051",
+		linknext = "0001_00053",
+		line = 436,
+	},
+	["0001_00053"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"千佳に触れる指先も",
+					{"rt2"},
+					"少しだけ緊張がほぐれてきた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Even the tension of my fingertips that touched Chika had eased a little.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00052",
+		linknext = "0001_00054",
+		line = 443,
+	},
+	["0001_00054"] = {
+		{"bg", sync=0, face=1, file="ev_com_h11_14", time=400, path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00728", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「んっ……あ……",
+					{"rt2"},
+					"あさひ……もう少し……",
+					{"rt2"},
+					"くっついてもいい？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Mmh... A-Asahi... a little more... Can I stick to you?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00053",
+		linknext = "0001_00055",
+		line = 454,
+	},
+	["0001_00055"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01097", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「うん、僕もくっつきたい……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Yeah, I wanna... too…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00054",
+		linknext = "0001_00056",
+		line = 461,
+	},
+	["0001_00056"] = {
+		{"bg", speed=40000, file="zev_com_h11_14", path=":ev/ev_com_h11/", x2=580, y2=-20, x=640, y=180, set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そう言って、どちらからともなく",
+					{"rt2"},
+					"身体を寄せる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Saying so, we leaned close to each other.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00055",
+		linknext = "0001_00057",
+		line = 470,
+	},
+	["0001_00057"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ぴったりと密着した肌と肌が温かくて、",
+					{"rt2"},
+					"またドキドキが復活する。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The skin stuck together was so warm that my heart began to pound again.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00056",
+		linknext = "0001_00058",
+		line = 477,
+	},
+	["0001_00058"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00729", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「はぁ……あ……んん……",
+					{"rt2"},
+					"こうやって抱きしめてもらうと……",
+					{"rt2"},
+					"やっぱり男の子なんだなぁって感じちゃう……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Hah... Ah... Mmm... When you hug me like this... I feel like you're actually a boy…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00057",
+		linknext = "0001_00059",
+		line = 486,
+	},
+	["0001_00059"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01098", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「ぅ……ごめん、いや？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["U... Sorry... don't like it?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00058",
+		linknext = "0001_00060",
+		line = 493,
+	},
+	["0001_00060"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00730", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「ううん、逆だよ。嬉しいの」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["No, it's the other way around. I'm happy."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00059",
+		linknext = "0001_00061",
+		line = 500,
+	},
+	["0001_00061"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00731", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「ふぁ……ぁ……",
+					{"rt2"},
+					"あさひが男の子で……",
+					{"rt2"},
+					"ん……良かったなぁって思ったよ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Fa... A... Asahi's a boy… mm… I thought it was good."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00060",
+		linknext = "0001_00062",
+		line = 509,
+	},
+	["0001_00062"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00732", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「だって……はぁぁ……",
+					{"rt2"},
+					"気付いたら私、びっくりするくらい",
+					{"rt2"},
+					"好きになっちゃってたんだもん」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["'cos... haa… Surprised!... I fell in love with you before I knew it."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00061",
+		linknext = "0001_00063",
+		line = 518,
+	},
+	["0001_00063"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00733", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「本当に女の子同士で……って",
+					{"rt2"},
+					"悩んだくらいなんだから」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Though we are girls? Really?... I've almost worried about it... "]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00062",
+		linknext = "0001_00064",
+		line = 526,
+	},
+	["0001_00064"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"頬を染めながら、",
+					{"rt2"},
+					"それでも真っ直ぐ僕を見つめてくる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"She was blushing… , still stared straight at me.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00063",
+		linknext = "0001_00065",
+		line = 533,
+	},
+	["0001_00065"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00734", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「ん……でも……それでも……ふぁ……",
+					{"rt2"},
+					"女の子同士でもいいって思っちゃうくらい……",
+					{"rt2"},
+					"好きなんだよ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Mmh... but... still… fwah… I somewhat okay even we are girls... I like you."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00064",
+		linknext = "0001_00066",
+		line = 542,
+	},
+	["0001_00066"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01099", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「僕も……もし自分が",
+					{"rt2"},
+					"本当に女の子だったとしても……",
+					{"rt2"},
+					"千佳のこと、好きになったと思う」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Me too... even if I'm really a girl... I think I got to like Chika."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00065",
+		linknext = "0001_00067",
+		line = 551,
+	},
+	["0001_00067"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01100", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「性別とかそういうのじゃなくて……",
+					{"rt2"},
+					"『千佳』のことが好きなんだ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["It's not about gender or anything like that... I just like 'Chika'."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00066",
+		linknext = "0001_00068",
+		line = 559,
+	},
+	["0001_00068"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00735", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「あ……んっ……ふふ、嬉しい。私も。",
+					{"rt2"},
+					"男性でも女性でもなくて、",
+					{"rt2"},
+					"『あさひ』が好きなの」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Ah... Mmh... Hehe, I'm happy. Me too. I like ' Asahi'. It doesn't matter you're a guy or girl."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00067",
+		linknext = "0001_00069",
+		line = 568,
+	},
+	["0001_00069"] = {
+		{"bg", x=1100, y=200, zoom=140, file="zev_com_h11_14", path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00736", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「あさひ……もっと……",
+					{"rt2"},
+					"ん……近く……もっときて……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Asahi... come… mmh... closer…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00068",
+		linknext = "0001_00070",
+		line = 578,
+	},
+	["0001_00070"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01101", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「うん……こう……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Yeah... Like this...?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00069",
+		linknext = "0001_00071",
+		line = 585,
+	},
+	["0001_00071"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00737", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「ううん、もっと……もっと……",
+					{"rt2"},
+					"顔を寄せて……ん……ちゅっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["N-No, much… more… put your face… closer… mmh… mwah…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00070",
+		linknext = "0001_00072",
+		line = 593,
+	},
+	["0001_00072"] = {
+		{"bg", sync=0, face=1, file="zev_com_h11_13", time=400, path=":ev/ev_com_h11/", zoom=140, set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360, x=1100, y=200},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01102", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「ん……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Mmh…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00071",
+		linknext = "0001_00073",
+		line = 602,
+	},
+	["0001_00073"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00738", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「はぁ……ん……ちゅっ……んん……",
+					{"rt2"},
+					"あさひの唇、柔らかい……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Haah... mmm... mwah... mmm... Asahi's lips are soft…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00072",
+		linknext = "0001_00074",
+		line = 610,
+	},
+	["0001_00074"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01103", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「ん……ちゅ……",
+					{"rt2"},
+					"千佳の方が柔らかいよ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Mmh... mwah... Chika's, softer…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00073",
+		linknext = "0001_00075",
+		line = 618,
+	},
+	["0001_00075"] = {
+		{"bg", sync=0, face=1, file="zev_com_h11_01", time=400, path=":ev/ev_com_h11/", zoom=140, set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360, x=1100, y=200},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"お互いの唇を合わせながら、",
+					{"rt2"},
+					"そんなことを言ってまた笑いあう。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"While putting each other's lips together, we said such a thing and laughed again.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00074",
+		linknext = "0001_00076",
+		line = 627,
+	},
+	["0001_00076"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そうしてやがて少しずつ、",
+					{"rt2"},
+					"唇を重ねる時間が長くなっていく。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Then, little by little, the time to overlap lips became longer.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00075",
+		linknext = "0001_00077",
+		line = 634,
+	},
+	["0001_00077"] = {
+		{"bg", sync=0, face=1, file="zev_com_h11_13", time=400, path=":ev/ev_com_h11/", zoom=140, set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360, x=1100, y=200},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00739", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「んっ……ちゅっ……はぁ……んんっ……",
+					{"rt2"},
+					"んちゅっ……ちゅっ……んん……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Mmh... mwah... haa... MMh... Mmwah... Mwahh... Mmm…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00076",
+		linknext = "0001_00078",
+		line = 644,
+	},
+	["0001_00078"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00740", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「あさひ…………んっ……はぁ、はぁ……",
+					{"rt2"},
+					"んんっ、ちゅっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Asahi… Mmh… Hah, hah… Mmh, Mwah…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00077",
+		linknext = "0001_00079",
+		line = 652,
+	},
+	["0001_00079"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01104", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「んん……千佳……",
+					{"rt2"},
+					"んちゅっ……はぁ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[[”Mm... Chika... mmwah... Hah..."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00078",
+		linknext = "0001_00080",
+		line = 660,
+	},
+	["0001_00080"] = {
+		{"bg", sync=0, face=1, file="zev_com_h11_14", time=400, path=":ev/ev_com_h11/", zoom=140, set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360, x=1100, y=200},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00741", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「んんん……ん……はぁ、はぁ……",
+					{"rt2"},
+					"私、もう我慢できない……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Mmm... Mm... Hah,hah... I can't stand it anymore…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00079",
+		linknext = "0001_00081",
+		line = 670,
+	},
+	["0001_00081"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00742", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「すごく緊張するけど……その……",
+					{"rt2"},
+					"え、えっと……ぬ……脱がせて？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["I'm very nervous, but... well... , un-... dress… me?]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00080",
+		linknext = "0001_00082",
+		line = 678,
+	},
+	["0001_00082"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"勇気を振り絞って言ってくれたのが",
+					{"rt2"},
+					"分かる細い声。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"A thin voice… I've got that she said with courage.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00081",
+		linknext = "0001_00083",
+		line = 685,
+	},
+	["0001_00083"] = {
+		{"se", file="se018", id=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"微かに震える千佳の身体に触れながら、",
+					{"rt2"},
+					"もっと震える指先でそっと下着を外していく。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"While touching Chika's body that trembled slightly, I gently began to remove her underwear with my fingertips that trembled more.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00082",
+		linknext = "0001_00084",
+		line = 695,
+	},
+	["0001_00084"] = {
+		{"bg", zoom=120, speed=10000, file="zev_com_h11_02", path=":ev/ev_com_h11/", x2=540, y2=-70, x=250, y=-200, set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360},
+		{"ex", time=3000, func="wait"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"bg", file="ev_com_h11_02", path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00743", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「は……ぅぅぅぅ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Ha... uuuuu…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00083",
+		linknext = "0001_00085",
+		line = 709,
+	},
+	["0001_00085"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01105", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「千佳……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Chika…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00084",
+		linknext = "0001_00086",
+		line = 716,
+	},
+	["0001_00086"] = {
+		{"bg", sync=0, face=1, file="ev_com_h11_03", time=400, path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00744", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「ひゃ……ぅ……",
+					{"rt2"},
+					"か、感想はまだ言わないで……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Eek... u... don't tell me what you think, … not yet…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00085",
+		linknext = "0001_00087",
+		line = 726,
+	},
+	["0001_00087"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"月明かりの下、",
+					{"rt2"},
+					"真っ白な肌が照られてとても幻想的。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Under the moonlight, her pure white skin was illuminated and it was very fantastic.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00086",
+		linknext = "0001_00088",
+		line = 733,
+	},
+	["0001_00088"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そう言いかけた僕の唇を",
+					{"rt2"},
+					"千佳の指先がそっと塞ぐ。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Chika's fingertips gently closed my lips.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00087",
+		linknext = "0001_00089",
+		line = 740,
+	},
+	["0001_00089"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00745", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「い、今何か言われると……",
+					{"rt2"},
+					"恥ずかしすぎてパニックになっちゃう……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["No, if you say something now... I'm too embarrassed to panic…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00088",
+		linknext = "0001_00090",
+		line = 748,
+	},
+	["0001_00090"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00746", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「うぅ……お風呂だったら",
+					{"rt2"},
+					"もう少し平気なのに……",
+					{"rt2"},
+					"すごく……変……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Uh... if it's a bath, I'm a little more okay... it's really... strange…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00089",
+		linknext = "0001_00091",
+		line = 757,
+	},
+	["0001_00091"] = {
+		{"bg", x=640, y=160, time=500, file="zev_com_h11_03", path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"僕から視線を逸らしながら、唇まで震わせる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Her lips were quivering when she looked away from me.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00090",
+		linknext = "0001_00092",
+		line = 765,
+	},
+	["0001_00092"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そんな千佳を見つめて、",
+					{"rt2"},
+					"愛おしさが何倍にも膨らむのを感じた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Looking at Chika, I felt her adorable much more than before.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00091",
+		linknext = "0001_00093",
+		line = 772,
+	},
+	["0001_00093"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01106", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「千佳……綺麗だよ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Chika... You look beautiful."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00092",
+		linknext = "0001_00094",
+		line = 779,
+	},
+	["0001_00094"] = {
+		{"bg", sync=0, face=1, file="zev_com_h11_05", time=400, path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360, x=640, y=160},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00747", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「はぅぅぅ……",
+					{"rt2"},
+					"か、感想……言われちゃった……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Hauuu... , you told me… h-how I was…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00093",
+		linknext = "0001_00095",
+		line = 789,
+	},
+	["0001_00095"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01107", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「いや？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["No?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00094",
+		linknext = "0001_00096",
+		line = 796,
+	},
+	["0001_00096"] = {
+		{"bg", sync=0, face=1, file="zev_com_h11_06", time=400, path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360, x=640, y=160},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00748", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「ううん……嬉しすぎて……",
+					{"rt2"},
+					"恥ずかしすぎて……",
+					{"rt2"},
+					"真っ白になっちゃいそう……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["J-just... I'm too happy... too embarrassed... I'm gonna blank out…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00095",
+		linknext = "0001_00097",
+		line = 807,
+	},
+	["0001_00097"] = {
+		{"bg", sync=0, face=1, file="zev_com_h11_05", time=400, path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360, x=640, y=160},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00749", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「私の身体を……あさひが",
+					{"rt2"},
+					"見てくれてるって……",
+					{"rt2"},
+					"そう思うだけで……うぅぅ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["My body... Asahi's lookin' at me... Just thinkin' so... Uuu…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00096",
+		linknext = "0001_00098",
+		line = 818,
+	},
+	["0001_00098"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00750", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「今まで……",
+					{"rt2"},
+					"こんな風に見られたことってないから……",
+					{"rt2"},
+					"どういう表情していいかわかんなくて……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Until now... I've never been seen like this... I don't know how to face you…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00097",
+		linknext = "0001_00099",
+		line = 827,
+	},
+	["0001_00099"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01108", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「そのままの千佳でいいと思うよ。",
+					{"rt2"},
+					"どんな顔でも可愛い……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Just as you are, Chika. Any face is cute…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00098",
+		linknext = "0001_00100",
+		line = 835,
+	},
+	["0001_00100"] = {
+		{"bg", sync=0, face=1, file="zev_com_h11_03", time=400, path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360, x=640, y=160},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00751", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「うぅぅ……そういうのも反則だよぉ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Uuu... that's killin' me…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00099",
+		linknext = "0001_00101",
+		line = 844,
+	},
+	["0001_00101"] = {
+		{"bg", time=500, file="ev_com_h11_03", path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"可愛く呟きながら、",
+					{"rt2"},
+					"僕の腕にぎゅっとしがみついてくる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"While muttering cutely, she clung tightly to my arm.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00100",
+		linknext = "0001_00102",
+		line = 853,
+	},
+	["0001_00102"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"その仕草とそして柔らかな胸の感触で、",
+					{"rt2"},
+					"僕もすぐに身体が反応してしまった。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"With that gesture and the soft touch of her chest, my body immediately reacted to it.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00101",
+		linknext = "0001_00103",
+		line = 860,
+	},
+	["0001_00103"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"びくんと跳ねた僕のそこが、",
+					{"rt2"},
+					"千佳の身体に触れる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"My 'thing' that bounced suddenly touched Chika's body.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00102",
+		linknext = "0001_00104",
+		line = 867,
+	},
+	["0001_00104"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00752", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「あ……ん……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Ah… ugh…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00103",
+		linknext = "0001_00105",
+		line = 874,
+	},
+	["0001_00105"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01109", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「わわっ……ごめっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["W-Wow... Sorry…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00104",
+		linknext = "0001_00106",
+		line = 881,
+	},
+	["0001_00106"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00753", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「あ……う、ううん……",
+					{"rt2"},
+					"これって……あさひ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Ah... N-no... This is... Asahi…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00105",
+		linknext = "0001_00107",
+		line = 889,
+	},
+	["0001_00107"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01110", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「わあぁ、まじまじ見ないでっ……",
+					{"rt2"},
+					"恥ずかしいっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Wow, don't look s-seriously... embarrassing…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00106",
+		linknext = "0001_00108",
+		line = 897,
+	},
+	["0001_00108"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00754", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「ふふっ、そうなんだ。",
+					{"rt2"},
+					"あさひも同じ……なんだね」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Heheh, that's right. Same as me, Asahi... aren't you?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00107",
+		linknext = "0001_00109",
+		line = 905,
+	},
+	["0001_00109"] = {
+		{"bg", x=380, y=140, zoom=80, time=500, file="zev_com_h11_03", path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"僕が恥ずかしがると、少しだけ嬉しそうに",
+					{"rt2"},
+					"僕の身体を見つめてくる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"When I'm embarrassed, she looked a little happily at my body.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00108",
+		linknext = "0001_00110",
+		line = 914,
+	},
+	["0001_00110"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"すでに大きくなってしまったそこを見れば、",
+					{"rt2"},
+					"僕の感情なんて一目瞭然だ。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"If she looked at my 'thing' that had already grown, my feelings were obvious.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00109",
+		linknext = "0001_00111",
+		line = 921,
+	},
+	["0001_00111"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00755", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「あさひ……私の身体を見て……",
+					{"rt2"},
+					"こうなってくれたんだよね？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Asahi... looking at my body... , did you become like this?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00110",
+		linknext = "0001_00112",
+		line = 929,
+	},
+	["0001_00112"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01111", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「うん……さっき言った通り……",
+					{"rt2"},
+					"千佳が本当に綺麗だから……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Yeah... as I said before... Chika, you're really beautiful…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00111",
+		linknext = "0001_00113",
+		line = 937,
+	},
+	["0001_00113"] = {
+		{"bg", sync=0, face=1, file="zev_com_h11_02", time=400, path=":ev/ev_com_h11/", zoom=80, set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360, x=380, y=140},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00756", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「そ、それってつまり……",
+					{"rt2"},
+					"じ、自分のものにしたいってこと……",
+					{"rt2"},
+					"だよね？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Th-that means... you want to make me y-yours... , right?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00112",
+		linknext = "0001_00114",
+		line = 948,
+	},
+	["0001_00114"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01112", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「そ、そういう表現が正しいかどうかは",
+					{"rt2"},
+					"わからないけどっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["I don't know if s-such an expression is correct, but…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00113",
+		linknext = "0001_00115",
+		line = 956,
+	},
+	["0001_00115"] = {
+		{"bg", sync=0, face=1, file="zev_com_h11_03", time=400, path=":ev/ev_com_h11/", zoom=80, set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360, x=380, y=140},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00757", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「ううん……私がそう感じたの……",
+					{"rt2"},
+					"あさひのものにして欲しいって……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Y-yeah... I felt that way... I want you to make me Asahi's…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00114",
+		linknext = "0001_00116",
+		line = 966,
+	},
+	["0001_00116"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00758", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「このまま……あさひに……",
+					{"rt2"},
+					"全部奪って欲しいって……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["As is... Asahi... I want you to take my everything…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00115",
+		linknext = "0001_00117",
+		line = 974,
+	},
+	["0001_00117"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01113", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「千佳……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Chika…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00116",
+		linknext = "0001_00118",
+		line = 981,
+	},
+	["0001_00118"] = {
+		{"bg", time=500, file="ev_com_h11_03", path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"意を決したように、そっと足を開く千佳。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Chika gently opened her legs as if she had decided.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00117",
+		linknext = "0001_00119",
+		line = 989,
+	},
+	["0001_00119"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"最初からそのつもりで部屋へ来たんだろうけれど、",
+					{"rt2"},
+					"やっぱり初めては怖いに決まってる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"She probably came to the room with that intention from the beginning, but after all it surely seemed to be scary for the first time.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00118",
+		linknext = "0001_00120",
+		line = 996,
+	},
+	["0001_00120"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00759", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「お願い、あさひ……私のこと……",
+					{"rt2"},
+					"全部奪ってください……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Please, Asahi... from me... , please take everything…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00119",
+		linknext = "0001_00121",
+		line = 1004,
+	},
+	["0001_00121"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01114", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「千佳……僕も千佳が欲しい……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Chika... I also want Chika…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00120",
+		linknext = "0001_00122",
+		line = 1011,
+	},
+	["0001_00122"] = {
+		{"bg", speed=8000, file="zev_com_h11_03", path=":ev/ev_com_h11/", x2=-380, y2=-360, x=-380, y=-300, set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"張り詰めたそこを千佳へ宛がうと、",
+					{"rt2"},
+					"もう十分な潤いが伝わってきた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					[["When I pushed my tense 'thing' to Chika, her place was already fully moisturized.]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00121",
+		linknext = "0001_00123",
+		line = 1020,
+	},
+	["0001_00123"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ぬるりと滑る先端をそっと位置調整して、",
+					{"rt2"},
+					"ゆっくりと腰を進めていく。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Gently adjusting to my slippery tip, I slowly moved and advanced my hips.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00122",
+		linknext = "0001_00124",
+		line = 1027,
+	},
+	["0001_00124"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"すると少しだけ進めたところで、",
+					{"rt2"},
+					"小さな抵抗にぶつかった。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"After I went a little further, I ran into a small bump.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00123",
+		linknext = "0001_00125",
+		line = 1034,
+	},
+	["0001_00125"] = {
+		{"bg", file="ev_com_h11_03", path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00760", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「あぅ……ん……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Auh... mmm…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00124",
+		linknext = "0001_00126",
+		line = 1043,
+	},
+	["0001_00126"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01115", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「いくよ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["I'm going."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00125",
+		linknext = "0001_00127",
+		line = 1050,
+	},
+	["0001_00127"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00761", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「うん……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Yes…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00126",
+		linknext = "0001_00128",
+		line = 1057,
+	},
+	["0001_00128"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不安でいっぱいなはずなのに、",
+					{"rt2"},
+					"微かに笑顔を見せてくれる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"She should be full of anxiety, but showed a faint smile.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00127",
+		linknext = "0001_00129",
+		line = 1064,
+	},
+	["0001_00129"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そんな彼女に導かれるように、",
+					{"rt2"},
+					"少しだけ力を込めて、身体を密着させる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"To be guided by her, I put my power into close contact with her body.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00128",
+		linknext = "0001_00130",
+		line = 1071,
+	},
+	["0001_00130"] = {
+		{"bg", id=9, lv=9, sync=1, time=1000, file="white", path=":bg/"},
+		{"cgdel", id=9, lv=9},
+		{"bg", file="ev_com_h11_04", sync=1, time=1000, vague=100, path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00762", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「んんんんんっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Mmmmh…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00129",
+		linknext = "0001_00131",
+		line = 1082,
+	},
+	["0001_00131"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01116", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「んんっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Mmmh…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00130",
+		linknext = "0001_00132",
+		line = 1089,
+	},
+	["0001_00132"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ぷつっという感触を抜けた瞬間、",
+					{"rt2"},
+					"二人同時に声を上げてしまった。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"At the moment when I got out of the feeling of being stuffy, we screamed at the same time.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00131",
+		linknext = "0001_00133",
+		line = 1096,
+	},
+	["0001_00133"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"熱くて狭い空間をむりやりこじ開けながら、",
+					{"rt2"},
+					"千佳と繋がっていく。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"While forcing open in a hot and narrow space, I was connecting with Chika.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00132",
+		linknext = "0001_00134",
+		line = 1103,
+	},
+	["0001_00134"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00763", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「あ……ふぅ……んっ……ふぅぅ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Ah... huh... mmh... huuh…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00133",
+		linknext = "0001_00135",
+		line = 1110,
+	},
+	["0001_00135"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01117", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「千佳……大丈夫？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Chika... is it okay?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00134",
+		linknext = "0001_00136",
+		line = 1117,
+	},
+	["0001_00136"] = {
+		{"bg", sync=0, face=1, file="ev_com_h11_05", time=400, path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00764", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「う、ん……だいじょう、ぶ……",
+					{"rt2"},
+					"あ、はは……でも……ちょっとだけ……",
+					{"rt2"},
+					"痛い、かも……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Mmh... O... kay... Ah, haha... but... just a little... maybe it hurts…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00135",
+		linknext = "0001_00137",
+		line = 1128,
+	},
+	["0001_00137"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01118", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「無理しなくていいよ。",
+					{"rt2"},
+					"きつかったらまた……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["You don't have to overdo it. If it gets tight, then the next time…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00136",
+		linknext = "0001_00138",
+		line = 1136,
+	},
+	["0001_00138"] = {
+		{"bg", sync=0, face=1, file="ev_com_h11_06", time=400, path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00765", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「んんっ、だめだめ……絶対にだめ……",
+					{"rt2"},
+					"きちんとっ……最後までしたいの……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Mmmh, no no nop... absolutely no... properly... I want to finish…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00137",
+		linknext = "0001_00139",
+		line = 1146,
+	},
+	["0001_00139"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"言葉と同時に、ぎゅうっと締め付けてくる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"At the same time as the words, she tightened strongly.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00138",
+		linknext = "0001_00140",
+		line = 1152,
+	},
+	["0001_00140"] = {
+		{"bg", x=640, y=160, time=500, file="zev_com_h11_06", path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"全身で離れたくないと",
+					{"rt2"},
+					"表現してくれる彼女が嬉しくて、",
+					{"rt2"},
+					"そっとその頬を撫でた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I was happy that she expressed her feelings of not leaving with her whole body, so I gently stroked her cheek.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00139",
+		linknext = "0001_00141",
+		line = 1162,
+	},
+	["0001_00141"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01119", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「ありがとう……僕も最後までしたい」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Thank you... I want to finish it too."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00140",
+		linknext = "0001_00142",
+		line = 1169,
+	},
+	["0001_00142"] = {
+		{"bg", sync=0, face=1, file="zev_com_h11_05", time=400, path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360, x=640, y=160},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00766", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「ん……うん……あさひ……",
+					{"rt2"},
+					"このまま……続けて」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Hmm... yeah... Asahi... As is... Keep doing."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00141",
+		linknext = "0001_00143",
+		line = 1179,
+	},
+	["0001_00143"] = {
+		{"bg", speed=80000, file="zev_com_h11_06", path=":ev/ev_com_h11/", x2=-380, y2=-300, x=640, y=130, set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"千佳に促されながら、",
+					{"rt2"},
+					"ゆっくりと身体を動かし始める。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Being prompted by Chika, I slowly began to move my body.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00142",
+		linknext = "0001_00144",
+		line = 1188,
+	},
+	["0001_00144"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"もちろん家の中には",
+					{"rt2"},
+					"姉ちゃんもおばあちゃんもいるから、",
+					{"rt2"},
+					"気を付けて静かに……。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Of course, there were Sis and Gran in my house, so tried to be careful and quiet...",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00143",
+		linknext = "0001_00145",
+		line = 1196,
+	},
+	["0001_00145"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00767", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「んっ……はぁ……んんん……ふぅぅ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Mmh... Hah... mmm... Huuh…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00144",
+		linknext = "0001_00146",
+		line = 1203,
+	},
+	["0001_00146"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01120", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「苦しくない？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Isn't it painful?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00145",
+		linknext = "0001_00147",
+		line = 1210,
+	},
+	["0001_00147"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00768", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「へいき……あ……ふ……",
+					{"rt2"},
+					"少しずつ……痛みにも慣れてきたから……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Fine… ah... ph… little by little... I'm getting' used to the pain…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00146",
+		linknext = "0001_00148",
+		line = 1218,
+	},
+	["0001_00148"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00769", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「それに……慣れてきたら……はぁ……",
+					{"rt2"},
+					"あさひが入ってくれてるんだなぁって",
+					{"rt2"},
+					"実感できて……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["And... once I get used to it... hahh... I can feel that Asahi is in…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00147",
+		linknext = "0001_00149",
+		line = 1227,
+	},
+	["0001_00149"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00770", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「お腹の中、じんわり温かくて……",
+					{"rt2"},
+					"なんだか……すごく嬉しいの……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["It got slightly warm in my stomach... and somewhat... I'm really happy…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00148",
+		linknext = "0001_00150",
+		line = 1235,
+	},
+	["0001_00150"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"呟きながら、自分のお腹のあたりを",
+					{"rt2"},
+					"そっと撫でる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"While muttering, she gently stroked around her own stomach.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00149",
+		linknext = "0001_00151",
+		line = 1242,
+	},
+	["0001_00151"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"恥ずかしさで頬を染める様子に、",
+					{"rt2"},
+					"思わずびくんと反応してしまった。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Involuntarily my 'thing' reacted to the appearance of dyeing her cheeks with embarrassment.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00150",
+		linknext = "0001_00152",
+		line = 1249,
+	},
+	["0001_00152"] = {
+		{"bg", file="ev_com_h11_04", path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00771", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「ひゃぅっ……！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Eek...!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00151",
+		linknext = "0001_00153",
+		line = 1258,
+	},
+	["0001_00153"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01121", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「んんっ、ごめんっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Mmh, sorry…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00152",
+		linknext = "0001_00154",
+		line = 1265,
+	},
+	["0001_00154"] = {
+		{"bg", sync=0, face=1, file="ev_com_h11_06", time=400, path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00772", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「ううん……こういうのも……",
+					{"rt2"},
+					"繋がってるってわかるから……",
+					{"rt2"},
+					"嬉しいよ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["N-no... this kind of thing... I feel we're connected... I'm glad."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00153",
+		linknext = "0001_00155",
+		line = 1276,
+	},
+	["0001_00155"] = {
+		{"bg", sync=0, face=1, file="ev_com_h11_05", time=400, path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00773", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「あさひのこと……",
+					{"rt2"},
+					"んっ、いっぱい感じさせて欲しい……",
+					{"rt2"},
+					"はぁ……んんっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Asahi... , I want you to make me feel a lot... haa... Mmmh…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00154",
+		linknext = "0001_00156",
+		line = 1287,
+	},
+	["0001_00156"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01122", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「千佳……僕……んっ……",
+					{"rt2"},
+					"千佳のこと……いっぱい",
+					{"rt2"},
+					"感じたい……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Chika... me... too... mmh... Chika... I want to feel you a lot…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00155",
+		linknext = "0001_00157",
+		line = 1296,
+	},
+	["0001_00157"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"千佳の気持ちを反映するように、",
+					{"rt2"},
+					"あそこがきゅんきゅんと動く。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"As if it refrected Chika's feelings, Chika's private part moved steadily.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00156",
+		linknext = "0001_00158",
+		line = 1303,
+	},
+	["0001_00158"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"痛がらせないよう気を付けながら、",
+					{"rt2"},
+					"ゆっくりと動きを開始する。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I slowly began my movement, being careful not to hurt her.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00157",
+		linknext = "0001_00159",
+		line = 1310,
+	},
+	["0001_00159"] = {
+		{"bg", x=640, y=160, time=500, file="zev_com_h11_03", path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00774", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「全部……全部伝わってくる……よ……",
+					{"rt2"},
+					"あっ、はぁ……あさひ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Everything... everything is transmitted... huh... Ah, hah... Asahi…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00158",
+		linknext = "0001_00160",
+		line = 1320,
+	},
+	["0001_00160"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01123", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「ん……僕も……千佳のこと、",
+					{"rt2"},
+					"全部伝わってくるよ……んんっ……",
+					{"rt2"},
+					"少し動いただけでもわかっちゃう……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Mmm... Me too... Chika, I can tell you everything... Mmmh... I feel your everything even if you move a little…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00159",
+		linknext = "0001_00161",
+		line = 1329,
+	},
+	["0001_00161"] = {
+		{"bg", sync=0, face=1, file="zev_com_h11_05", time=400, path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360, x=640, y=160},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00775", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「はぁ……んぅ、嬉しい……あ……",
+					{"rt2"},
+					"はぁぁ、嬉しい……全部、知って欲しい……",
+					{"rt2"},
+					"あ……んっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Haah... Mmu, I'm glad... Ah... Haah, I'm glad... I want you to know everything... Ah... mmh…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00160",
+		linknext = "0001_00162",
+		line = 1340,
+	},
+	["0001_00162"] = {
+		{"bg", sync=0, face=1, file="zev_com_h11_06", time=400, path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360, x=640, y=160},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00776", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「私のことっ……全部っ……んんっ……",
+					{"rt2"},
+					"全部……恥ずかしいこともっ……",
+					{"rt2"},
+					"気持ちいいこともっ……はぁぅっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["About me... all... mmh... all... Embarrassing thing... feeling good... hauh…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00161",
+		linknext = "0001_00163",
+		line = 1351,
+	},
+	["0001_00163"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"思わず大きな声が漏れそうになるのを",
+					{"rt2"},
+					"ぐっと我慢する。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"She put up with a loud voice about to leak.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00162",
+		linknext = "0001_00164",
+		line = 1358,
+	},
+	["0001_00164"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"なんとか声を漏らさないよう、",
+					{"rt2"},
+					"唇で自分の手をそっと噛んだ。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"She gently bit her hand with her lips so as not to let her voice out.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00163",
+		linknext = "0001_00165",
+		line = 1365,
+	},
+	["0001_00165"] = {
+		{"bg", time=500, file="ev_com_h11_04", path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00777", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「はぁ……はぁぁ……んっ、ふぅっ……",
+					{"rt2"},
+					"あ、あぁぁ、あさひ……",
+					{"rt2"},
+					"んっ、はぁぁ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Hah... Haah... mmh, huh... A-A-Asahi... Mmh, haah…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00164",
+		linknext = "0001_00166",
+		line = 1376,
+	},
+	["0001_00166"] = {
+		{"bg", sync=0, face=1, file="ev_com_h11_05", time=400, path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00778", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「や……ん……んふぅっ……声、出ちゃう……",
+					{"rt2"},
+					"あっ、んっ、これっ、不思議っ……",
+					{"rt2"},
+					"はぁぁ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Ah... mm... mfwhh... a voice, come out... Ah, mmh, this, strange... hahh…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00165",
+		linknext = "0001_00167",
+		line = 1387,
+	},
+	["0001_00167"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01124", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「大丈夫？　つらくない？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Is it okay? Isn't it painful?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00166",
+		linknext = "0001_00168",
+		line = 1394,
+	},
+	["0001_00168"] = {
+		{"bg", sync=0, face=1, file="ev_com_h11_06", time=400, path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00779", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「ん……うん……つらくない、けど……",
+					{"rt2"},
+					"あっ、はぁ……は、恥ずかしい……よぉ……",
+					{"rt2"},
+					"んんっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Mmm... no... it's not painful, but... Ah, huh... it's e-embarrassing... mmh…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00167",
+		linknext = "0001_00169",
+		line = 1405,
+	},
+	["0001_00169"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01125", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「僕としては……千佳の可愛い声、",
+					{"rt2"},
+					"たくさん聞きたいけど……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["For me... Chika's cute voice, I want to hear a lot, though…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00168",
+		linknext = "0001_00170",
+		line = 1413,
+	},
+	["0001_00170"] = {
+		{"bg", sync=0, face=1, file="ev_com_h11_05", time=400, path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00780", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「はぅぅ……そんなこと言っちゃだめ……",
+					{"rt2"},
+					"はぁ、余計に……声、出ちゃうよぉ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Hauu... Don't say that... Oh, extra... voice, I'll come out…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00169",
+		linknext = "0001_00171",
+		line = 1423,
+	},
+	["0001_00171"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00781", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「んっ、我慢しなきゃって……",
+					{"rt2"},
+					"思えば思うほど……んんんっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Mmh, I have to put up with it... The more I think about it... Mmmmh…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00170",
+		linknext = "0001_00172",
+		line = 1431,
+	},
+	["0001_00172"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"あまりに激しくすると",
+					{"rt2"},
+					"声を我慢するのもきつそうだ。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"If it gets too violent, it seems to be hard for her to put up with raising her voice.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00171",
+		linknext = "0001_00173",
+		line = 1438,
+	},
+	["0001_00173"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そう思って、",
+					{"rt2"},
+					"緩やかに優しい動きを繰り返す。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"With that in mind, I repeated gentle movements softly.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00172",
+		linknext = "0001_00174",
+		line = 1445,
+	},
+	["0001_00174"] = {
+		{"bg", x=640, y=160, time=500, file="zev_com_h11_03", path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"すると千佳が少しだけ",
+					{"rt2"},
+					"不安そうな表情で訊ねてきた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Then Chika asked with a slightly uneasy expression.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00173",
+		linknext = "0001_00175",
+		line = 1454,
+	},
+	["0001_00175"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00782", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「ん……はぁぁ……あ……",
+					{"rt2"},
+					"あさひ……気持ちいい……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Mm... haaa... A... -Asahi… , feel good...?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00174",
+		linknext = "0001_00176",
+		line = 1462,
+	},
+	["0001_00176"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01126", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「ん……すごく気持ちいいよ……はぁ……",
+					{"rt2"},
+					"千佳の中……熱くて……トロトロで……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Mm... it feels really good... hah... inside Chika... it's hot... and thick…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00175",
+		linknext = "0001_00177",
+		line = 1470,
+	},
+	["0001_00177"] = {
+		{"bg", sync=0, face=1, file="zev_com_h11_05", time=400, path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360, x=640, y=160},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00783", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「あ……はぁ……んっ、ふぅっ……",
+					{"rt2"},
+					"んんっ、嬉しい……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Ah... hah... mmh, huh... mmmh, I'm glad…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00176",
+		linknext = "0001_00178",
+		line = 1480,
+	},
+	["0001_00178"] = {
+		{"bg", sync=0, face=1, file="zev_com_h11_03", time=400, path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360, x=640, y=160},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00784", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「でも……遠慮しなくていいから……",
+					{"rt2"},
+					"あ……んっ……好きなように……",
+					{"rt2"},
+					"動いてね……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["But... you don't have to hesitate... Ah... mmh... as you like... please move…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00177",
+		linknext = "0001_00179",
+		line = 1491,
+	},
+	["0001_00179"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01127", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「ん……大丈夫、もう動いてるよ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Mm... it's okay, it's already moving."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00178",
+		linknext = "0001_00180",
+		line = 1498,
+	},
+	["0001_00180"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00785", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「んんっ……でも……男の人って……",
+					{"rt2"},
+					"激しいのが好きなんじゃ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Mmmh... but... a man... likes being fierce, huh?..."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00179",
+		linknext = "0001_00181",
+		line = 1506,
+	},
+	["0001_00181"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01128", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「好きな人と繋がれてるだけで気持ちいいよ。",
+					{"rt2"},
+					"じっとしてたって気持ちいい」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["I feel good just to be connected with my sweet person. I feel good just staying still."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00180",
+		linknext = "0001_00182",
+		line = 1514,
+	},
+	["0001_00182"] = {
+		{"bg", x=1100, y=200, zoom=140, file="zev_com_h11_02", path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00786", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「あさひ……ん……",
+					{"rt2"},
+					"好き……んんっ……ちゅっ……ちゅっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Asahi... mmm... I like... you, mmh... mwah... mwah…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00181",
+		linknext = "0001_00183",
+		line = 1524,
+	},
+	["0001_00183"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"僕の言葉を聞いて、",
+					{"rt2"},
+					"そっと抱き寄せてキスをしてくる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Hearing my words, she gently hugged and kissed me.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00182",
+		linknext = "0001_00184",
+		line = 1531,
+	},
+	["0001_00184"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"さっきよりも濡れた唇が気持ちよくて、",
+					{"rt2"},
+					"思わず僕からもキスを返した。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Her wet lips were more comfortable than before, and I instinctively returned a kiss.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00183",
+		linknext = "0001_00185",
+		line = 1538,
+	},
+	["0001_00185"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01129", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「ん……ちゅっ……んっ、",
+					{"rt2"},
+					"千佳……ちゅっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Mm... mwah... mmh, Chika... mwah…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00184",
+		linknext = "0001_00186",
+		line = 1546,
+	},
+	["0001_00186"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00787", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「はむっ……は……ぁ……",
+					{"rt2"},
+					"ちゅっ……んんん……ちゅぅ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Ahmm... ha... a… mwah... mmm... mwahh…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00185",
+		linknext = "0001_00187",
+		line = 1554,
+	},
+	["0001_00187"] = {
+		{"bg", sync=0, face=1, file="zev_com_h11_03", time=400, path=":ev/ev_com_h11/", zoom=140, set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360, x=1100, y=200},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00788", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「ん……うん……私も……",
+					{"rt2"},
+					"繋がってるだけでも気持ちいい……",
+					{"rt2"},
+					"声……出ちゃうくらい……ふぁ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Mmm... yeah... I also ... feel good just to be connected... A voice... I'm about to come out... Fwah…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00186",
+		linknext = "0001_00188",
+		line = 1565,
+	},
+	["0001_00188"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00789", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「ずっとずっと……このまま……",
+					{"rt2"},
+					"繋がっていたい……くらい……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["F-Forever... as it is... I wanna be connected... Huh?..."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00187",
+		linknext = "0001_00189",
+		line = 1573,
+	},
+	["0001_00189"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01130", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「僕だってそうだよ……",
+					{"rt2"},
+					"終わらせたくない……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["The same as you... I don't want to finish…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00188",
+		linknext = "0001_00190",
+		line = 1581,
+	},
+	["0001_00190"] = {
+		{"bg", time=500, file="ev_com_h11_06", path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そんなに動いていないはずなのに、",
+					{"rt2"},
+					"さっきからずっと射精感に襲われていた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Even though it shouldn't be moving that much, I've been struck by the feeling of ejaculation since a while ago.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00189",
+		linknext = "0001_00191",
+		line = 1590,
+	},
+	["0001_00191"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それをなんとか回避しながら、",
+					{"rt2"},
+					"少しでも長く千佳の中にいたいと願う。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"While avoiding it, I hoped to stay in Chika as long as possible.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00190",
+		linknext = "0001_00192",
+		line = 1597,
+	},
+	["0001_00192"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00790", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「んっ……は……大丈夫、だよ、男の人は……",
+					{"rt2"},
+					"出したくなっちゃうんだよね……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Mmh... ha... it's okay, usually a man… want to put it out, right?..."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00191",
+		linknext = "0001_00193",
+		line = 1605,
+	},
+	["0001_00193"] = {
+		{"bg", sync=0, face=1, file="ev_com_h11_05", time=400, path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00791", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「あさひが……私で……その……っ",
+					{"rt2"},
+					"だ、出してくれたらっ……",
+					{"rt2"},
+					"私もっ……嬉しい……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Asahi... Inside me... well... , if you p-put it out... , I'm… happy too…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00192",
+		linknext = "0001_00194",
+		line = 1616,
+	},
+	["0001_00194"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00792", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「だって……それって……",
+					{"rt2"},
+					"最後まできちんとできたってこと……",
+					{"rt2"},
+					"だも……んっ、んんんっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["'Cos... that's... That's what we were able to do it properly until the end… , right? … mmh,mmmh…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00193",
+		linknext = "0001_00195",
+		line = 1625,
+	},
+	["0001_00195"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不意に締め付けが強くなり、",
+					{"rt2"},
+					"千佳の方から身体を動かしてくる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Suddenly the tightening became stronger, and Chika began to move her body.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00194",
+		linknext = "0001_00196",
+		line = 1632,
+	},
+	["0001_00196"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"狭くて熱くて柔らかい場所で",
+					{"rt2"},
+					"擦られる感覚が強くなり、",
+					{"rt2"},
+					"急激に気持ち良さが込み上げてくる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"In a narrow, hot and soft place, the feeling of being rubbed became stronger, and I suddenly began to feel good.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00195",
+		linknext = "0001_00197",
+		line = 1640,
+	},
+	["0001_00197"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"同時に千佳の口から",
+					{"rt2"},
+					"艶やかな声が漏れ始めた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"At the same time, lustrous voice began to leak from Chika's mouth.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00196",
+		linknext = "0001_00198",
+		line = 1647,
+	},
+	["0001_00198"] = {
+		{"bg", sync=0, face=1, file="ev_com_h11_04", time=400, path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00793", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「あっ、んっ……はぁぁっ、あっ……",
+					{"rt2"},
+					"はぁっ、んぁっ、あぅっ……",
+					{"rt2"},
+					"あさひんっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Ah, mmh... Haah, ah… haah, mah,auh… Asahi..."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00197",
+		linknext = "0001_00199",
+		line = 1658,
+	},
+	["0001_00199"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00794", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「お願いっ……んっ、最後までっ、",
+					{"rt2"},
+					"きちんとっ……してっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Please... mmh, until the end, properly… please…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00198",
+		linknext = "0001_00200",
+		line = 1666,
+	},
+	["0001_00200"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00795", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「私でっ……あっ、ふぅっ、",
+					{"rt2"},
+					"気持ち良くっ、なってっ、欲しいっ……",
+					{"rt2"},
+					"あっ、んんんっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Inside me... ah, huh, want you… to feel good… , I want it… ah, mmmh…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00199",
+		linknext = "0001_00201",
+		line = 1675,
+	},
+	["0001_00201"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01131", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「んんっ！",
+					{"rt2"},
+					"千佳っ……そんなに動いたらっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Mmmh! Chika... If you move so much…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00200",
+		linknext = "0001_00202",
+		line = 1683,
+	},
+	["0001_00202"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"なんとか堪えようと思っていた射精感に",
+					{"rt2"},
+					"限界が訪れる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The limit came to the feeling of ejaculation that I was trying to endure.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00201",
+		linknext = "0001_00203",
+		line = 1690,
+	},
+	["0001_00203"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"もう戻れない場所を越えた瞬間、",
+					{"rt2"},
+					"千佳と共に最後のスパートをかけた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The moment I crossed the place that couldn't return to, I played the final spurt with Chika.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00202",
+		linknext = "0001_00204",
+		line = 1697,
+	},
+	["0001_00204"] = {
+		{"bg", zoom=120, speed=80000, file="zev_com_h11_04", path=":ev/ev_com_h11/", x2=890, y2=220, x=-300, y=-230, set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00796", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「あっ、んっ、んんんっ！",
+					{"rt2"},
+					"んっ……ぁっ……はぁっ、",
+					{"rt2"},
+					"あっ、あぁぁっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Ah, mh, mmmh! ... mh... Ah... , hah,ah,Aaaah…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00203",
+		linknext = "0001_00205",
+		line = 1708,
+	},
+	["0001_00205"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01132", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「千佳っ……もうっ……僕っ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Chika... anymore... I…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00204",
+		linknext = "0001_00206",
+		line = 1715,
+	},
+	["0001_00206"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00797", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「んっ、うんっ……いいよっ……くぅっ、",
+					{"rt2"},
+					"お願いっ、あさひっ……いっぱいっ、",
+					{"rt2"},
+					"気持ち良くなってっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Mmh,yeah... okay... mmgh, please, Asahi... a lot, feel good…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00205",
+		linknext = "0001_00207",
+		line = 1724,
+	},
+	["0001_00207"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00798", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「私でっ……あっ、ああぁっ、いっぱいっ……",
+					{"rt2"},
+					"あっ、んぅっ……好きな人にっ、",
+					{"rt2"},
+					"気持ち良くなってっ、欲しいっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Inside me... ah, aaah, a lot... , ah... my Dearest person, I want you to feel good…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00206",
+		linknext = "0001_00208",
+		line = 1733,
+	},
+	["0001_00208"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00799", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「大好きなっ、あさひにっ……はぁぅっ、",
+					{"rt2"},
+					"くぅっ、私の身体でっ……気持ち良くっ……",
+					{"rt2"},
+					"あっ、んぁっ、ああぁっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["My dearest, Asahi... hauh, mmgh, in my body... feel good..., ah, mah, aaah…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00207",
+		linknext = "0001_00209",
+		line = 1742,
+	},
+	["0001_00209"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01133", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「んっ、うんっ……出るっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Hmmh, ummh... come out!..."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00208",
+		linknext = "0001_00210",
+		line = 1749,
+	},
+	["0001_00210"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00800", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「うんっ……んっ、あっ、ああっ……",
+					{"rt2"},
+					"あさひっ……んんんんんんっ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Yeah... mmh, ah, aah... Asahi... mmmmmmmmh!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00209",
+		linknext = "0001_00211",
+		line = 1757,
+	},
+	["0001_00211"] = {
+		{"bg", file="ev_com_h11_04", path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"千佳が声を我慢して身体を浮かせた瞬間、",
+					{"rt2"},
+					"僕も腰を引いた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The moment Chika, putting up with her voice, lifted her body, I also pulled my hips.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00210",
+		linknext = "0001_00212",
+		line = 1766,
+	},
+	["0001_00212"] = {
+		{"bg", id=9, lv=9, sync=1, time=500, file="white", path=":bg/"},
+		{"bg", id=9, lv=9, sync=1, time=500, alpha=0, file="white", path=":bg/"},
+		{"bg", id=9, lv=9, sync=1, time=1000, alpha=255, file="white", path=":bg/"},
+		{"cgdel", id=9, lv=9},
+		{"bg", file="ev_com_h11_07", sync=1, time=1000, vague=100, path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00801", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「んんんんんんんーーーーーーっ！！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Mmmmmmm---h!!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00211",
+		linknext = "0001_00213",
+		line = 1777,
+	},
+	["0001_00213"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01134", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「んんっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Mmmh…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00212",
+		linknext = "0001_00214",
+		line = 1784,
+	},
+	["0001_00214"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"千佳のあそこから抜いた瞬間、",
+					{"rt2"},
+					"白濁液が激しく迸る。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The moment I pulled out from Chika's pussy, the cloudy liquid rushed violently.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00213",
+		linknext = "0001_00215",
+		line = 1791,
+	},
+	["0001_00215"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"びゅくびゅくと噴出したそれは、",
+					{"rt2"},
+					"真っ白な千佳の体へと降り注いだ。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It spewed out and poured onto Chika's pure white body.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00214",
+		linknext = "0001_00216",
+		line = 1798,
+	},
+	["0001_00216"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01135", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「っはぁっ……はぁっ……んんん……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Mhaah… hah… mmm…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00215",
+		linknext = "0001_00217",
+		line = 1805,
+	},
+	["0001_00217"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00802", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「あ……ん……ふぁ……あ……熱い……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Ah... mmm... fwah... ah... Hot…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00216",
+		linknext = "0001_00218",
+		line = 1812,
+	},
+	["0001_00218"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"何度も何度も迸る精液を受け止めながら、",
+					{"rt2"},
+					"小さく感想を零す千佳。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"While receiving the semen that spild over and over again, Chika spild her impression in a small voice.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00217",
+		linknext = "0001_00219",
+		line = 1819,
+	},
+	["0001_00219"] = {
+		{"bg", sync=0, face=1, file="ev_com_h11_08", time=400, path=":ev/ev_com_h11/", set="ev_com_h11"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そうしてようやく呼吸が落ち着いた頃、",
+					{"rt2"},
+					"改めて精液を指先ですくった。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Then, when her breathing finally settled down, she, this time, scooped my semen with her fingertips.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00218",
+		linknext = "0001_00220",
+		line = 1828,
+	},
+	["0001_00220"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00803", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「はぁはぁ……これが……",
+					{"rt2"},
+					"あさひの……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Hahhah... this is... Asahi's…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00219",
+		linknext = "0001_00221",
+		line = 1836,
+	},
+	["0001_00221"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00804", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「すごく熱くて……とろとろで……",
+					{"rt2"},
+					"はぁぁ……すごい……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["It's so hot... mellow... haah... amazing…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00220",
+		linknext = "0001_00222",
+		line = 1844,
+	},
+	["0001_00222"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"改めて見られると恥ずかしいけれど、",
+					{"rt2"},
+					"大好きな人に見てもらえているという",
+					{"rt2"},
+					"喜びもある。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It was embarrassing to see it again, but there was also the joy of being seen by my dearest one.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00221",
+		linknext = "0001_00223",
+		line = 1852,
+	},
+	["0001_00223"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"きっとさっきの千佳も",
+					{"rt2"},
+					"こんな気持ちだったんだろう。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I'm sure Chika was feeling like this.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00222",
+		linknext = "0001_00224",
+		line = 1859,
+	},
+	["0001_00224"] = {
+		{"bg", x=640, y=160, time=500, file="zev_com_h11_08", path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01136", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「千佳……大丈夫だった……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Chika... was it okay...?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00223",
+		linknext = "0001_00225",
+		line = 1868,
+	},
+	["0001_00225"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00805", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「うん……何もかもが想像以上だったけど……",
+					{"rt2"},
+					"でも……嬉しさも想像以上だった」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Yeah... everything was more than I imagined... But... happiness was also more than that."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00224",
+		linknext = "0001_00226",
+		line = 1876,
+	},
+	["0001_00226"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00806", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「あさひとようやく繋がれた……",
+					{"rt2"},
+					"それだけで……私はもう大満足……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["I could finally connect with Asahi... Only that... I'm on cloud nine…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00225",
+		linknext = "0001_00227",
+		line = 1884,
+	},
+	["0001_00227"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01137", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「千佳……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Chika…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00226",
+		linknext = "0001_00228",
+		line = 1891,
+	},
+	["0001_00228"] = {
+		{"bg", x=1100, y=200, zoom=140, file="zev_com_h11_02", path=":ev/ev_com_h11/", set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00807", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「あ……ん……んっ、ちゅっ……",
+					{"rt2"},
+					"あさひ……大好き……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["Ah... mmm... mmh, mwah... Asahi... I love you…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00227",
+		linknext = "0001_00229",
+		line = 1901,
+	},
+	["0001_00229"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01138", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「僕も好きだよ、千佳……",
+					{"rt2"},
+					"んんっ、ちゅっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["I love you too, Chika... mmh, mwah…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00228",
+		linknext = "0001_00230",
+		line = 1909,
+	},
+	["0001_00230"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_chi_00808", ch="chi"},
+			},
+			ja = {
+				{
+					name = {"千佳"},
+					"「好き……好き……大好き……ちゅっ……",
+					{"rt2"},
+					"これからも……ずっと好き……",
+					{"rt2"},
+					"んんっ……ちゅっ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"千佳", "Chika"},
+					[["I like... I like... I love... mwah... I will continue to love... mmh... mwah…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00229",
+		linknext = "0001_00231",
+		line = 1918,
+	},
+	["0001_00231"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"二人で『好き』を繰り返しながら、",
+					{"rt2"},
+					"キスをする。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					[[We, just the two of us kissed while repeating "like".]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00230",
+		linknext = "0001_00232",
+		line = 1925,
+	},
+	["0001_00232"] = {
+		{"bg", sync=0, face=1, file="zev_com_h11_03", time=400, path=":ev/ev_com_h11/", zoom=140, set="ev_com_h11", ax=1280, ay=720, bx=-640, by=-360, x=1100, y=200},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"お互いに拙い行為だったかもしれないけれど、",
+					{"rt2"},
+					"二人で新しい一歩を踏み出せたことに",
+					{"rt2"},
+					"幸せを感じる僕らだった。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It might have been a clumsy act with each other, but we were happy to be able to take a new step together.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0001_00231",
+		linknext = "block_00232",
+		line = 1935,
+	},
+	block_00232 = {
+		{"scene", file="scene01"},
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="36_hシーン2"},
+		{"text"},
+		linkback = "0001_00232",
+		line = 1941,
+	},
+	label = {
+		scene = { block="0001_00001", label=2 },
+		top = { block="0001_00001", label=1 },
+	},
+}

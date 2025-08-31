@@ -1,0 +1,13 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"bg", file="black", path=":bg/"},
+		{"selback", file="main01"},
+		{"excall", file="main01"},
+		{"text"},
+		line = 14,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

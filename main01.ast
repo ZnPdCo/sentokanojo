@@ -1,0 +1,1195 @@
+astver = 2.0
+ast = {
+	["0005_00001"] = {
+		{"savetitle", text="Chapter. 1"},
+		{"se", file="se034", time=1500, loop=1, id=2},
+		{"bg", speed=30000, time=2000, file="zbg08a", path=":bg/", x2=0, y2=0, x=0, y=360, ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00001", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「はぁぁ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Haah…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "0005_00002",
+		line = 25,
+	},
+	["0005_00002"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"今日は何をしようかなぁ。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"What should I do today?",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00001",
+		linknext = "0005_00003",
+		line = 31,
+	},
+	["0005_00003"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"夏休みも半ばを過ぎてくると、",
+					{"rt2"},
+					"どういう風に過ごそうか悩み始める。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Over halfway through summer vacation, I started thinking about what I wanted to do.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00002",
+		linknext = "0005_00004",
+		line = 38,
+	},
+	["0005_00004"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"始まったばかりの頃は『あれをしたい』",
+					{"rt2"},
+					"『これをしたい』と色んなことを",
+					{"rt2"},
+					"考えたけれど……。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					[[Right when vacation started, I had some ideas like, "I want to do this" or "I want to do that"…]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00003",
+		linknext = "0005_00005",
+		line = 46,
+	},
+	["0005_00005"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00002", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「実際始まってみると、",
+					{"rt2"},
+					"意外と何も出来ないんだよなぁ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["But once it actually started, it turned out to be more difficult than I imagined…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00004",
+		linknext = "0005_00006",
+		line = 54,
+	},
+	["0005_00006"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"まぁ、こうやってだらけている",
+					{"rt2"},
+					"自分が悪いわけだけど。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Well, since I've been slacking off like this, I only have myself to blame.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00005",
+		linknext = "0005_00007",
+		line = 61,
+	},
+	["0005_00007"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"団扇で扇ぎながら、",
+					{"rt2"},
+					"窓の外の青空を見上げていると……。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I thought, fanning myself as I looked up at the blue sky outside the window...",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00006",
+		linknext = "0005_00008",
+		line = 68,
+	},
+	["0005_00008"] = {
+		{"se", stop=1, time=1500, id=2},
+		{"bg", file="bg08a", path=":bg/"},
+		{"quake"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_jun_00001", ch="jun"},
+			},
+			ja = {
+				{
+					name = {"潤"},
+					{"exfont", size="f4"},
+					"「あさひ！　今すぐ荷物をまとめろ！」",
+					{"exfont"},
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"潤", "Jun"},
+					[["Asahi! Pack your luggage now!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00007",
+		linknext = "0005_00009",
+		line = 83,
+	},
+	["0005_00009"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00003", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「わあぁっ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Whoa!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00008",
+		linknext = "0005_00010",
+		line = 92,
+	},
+	["0005_00010"] = {
+		{"bgm", file="bgm01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00004", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「姉ちゃん、のんびりしてる時に",
+					{"rt2"},
+					"いきなりなに？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Jun, what's the matter? Can't you see I'm relaxing?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00009",
+		linknext = "0005_00011",
+		line = 102,
+	},
+	["0005_00011"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_jun_00002", ch="jun"},
+			},
+			ja = {
+				{
+					name = {"潤"},
+					"「いいからまとめろ！　もう出るぞ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"潤", "Jun"},
+					[["Just pack your things! We're leaving now!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00010",
+		linknext = "0005_00012",
+		line = 109,
+	},
+	["0005_00012"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00005", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「えっ、ちょっと待って！",
+					{"rt2"},
+					"せめて何があったのか説明して！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Hey, wait a minute! At least tell me what happened first!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00011",
+		linknext = "0005_00013",
+		line = 117,
+	},
+	["0005_00013"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_jun_00003", ch="jun"},
+			},
+			ja = {
+				{
+					name = {"潤"},
+					"「説明は準備しながらだ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"潤", "Jun"},
+					[["I'll explain while you pack."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00012",
+		linknext = "0005_00014",
+		line = 124,
+	},
+	["0005_00014"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"いきなり飛び込んできた姉ちゃんから、",
+					{"rt2"},
+					"なぜか荷造りを急かされる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"My sister had suddenly barged into the room and was now demanding that I pack for some reason.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00013",
+		linknext = "0005_00015",
+		line = 131,
+	},
+	["0005_00015"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"この年になっても姉に頭が上がらないのは",
+					{"rt2"},
+					"弟あるあるで……。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"As younger brother that happens to me too, I am no match for her at this age.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00014",
+		linknext = "0005_00016",
+		line = 138,
+	},
+	["0005_00016"] = {
+		{"bg", speed=120000, file="zbg08a", path=":bg/", x2=640, y2=100, x=-640, y=100, ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"とりあえず、言われるまま、着替えやなんかを",
+					{"rt2"},
+					"バッグに詰め込み始める。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Anyway, I started packing clothes and other things in my bag as she had told me.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00015",
+		linknext = "0005_00017",
+		line = 147,
+	},
+	["0005_00017"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00006", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「せっかく休みを謳歌していたのに……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["But I just want to enjoy my vacation…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00016",
+		linknext = "0005_00018",
+		line = 154,
+	},
+	["0005_00018"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_jun_00004", ch="jun"},
+			},
+			ja = {
+				{
+					name = {"潤"},
+					"「自己管理の出来ないやつが",
+					{"rt2"},
+					"夏休みに入ったのをいいことに」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"潤", "Jun"},
+					[["It'll be good for someone like you who can't take care of himself and has nothing to do over summer break."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00017",
+		linknext = "0005_00019",
+		line = 162,
+	},
+	["0005_00019"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_jun_00005", ch="jun"},
+			},
+			ja = {
+				{
+					name = {"潤"},
+					"「自堕落にふけっていたように",
+					{"rt2"},
+					"しか見えなかったがな」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"潤", "Jun"},
+					[["You’ve been living like a complete slob."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00018",
+		linknext = "0005_00020",
+		line = 170,
+	},
+	["0005_00020"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00007", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「う……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Uh…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00019",
+		linknext = "0005_00021",
+		line = 177,
+	},
+	["0005_00021"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"……残念ながら図星。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"… Unfortunately, she hit the nail on the head.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00020",
+		linknext = "0005_00022",
+		line = 183,
+	},
+	["0005_00022"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00008", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「それで？　一体なにがあったの？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["So? What the hell is going on?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00021",
+		linknext = "0005_00023",
+		line = 190,
+	},
+	["0005_00023"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ひとまず手を動かしながら、",
+					{"rt2"},
+					"誤魔化すように質問する。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I asked, moving around so as not to upset her.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00022",
+		linknext = "0005_00024",
+		line = 197,
+	},
+	["0005_00024"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_jun_00006", ch="jun"},
+			},
+			ja = {
+				{
+					name = {"潤"},
+					"「実はな、ばあちゃんが足腰を痛めて",
+					{"rt2"},
+					"入院したらしいんだ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"潤", "Jun"},
+					[["Well the truth is, Grandma hurt her back and legs and is in the hospital."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00023",
+		linknext = "0005_00025",
+		line = 205,
+	},
+	["0005_00025"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00009", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「おばあちゃんが！？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Grandma!?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00024",
+		linknext = "0005_00026",
+		line = 212,
+	},
+	["0005_00026"] = {
+		{"msgoff"},
+		{"bg", lv=8, id=7, file="white", time=1000, sync=1, path=":bg/"},
+		{"bg", lv=8, id=7, file="reco", time=1000, notone=1, path=":sys/"},
+		{"colortone", style="sepia"},
+		{"fg", mode=-2, sync=0, pass=2},
+		{"bg", file="bg04a", path=":bg/", sync=0},
+		{"fg", ch="純", size="no", mode=3, path=":fg/", file="sum_0", face="困りＡ", lv=3, id=16, sync=0, pass=2},
+		{"extrans"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_jun_00007", ch="jun"},
+			},
+			ja = {
+				{
+					name = {"潤"},
+					"「ああ、もともと良くはなかったんだけど、",
+					{"rt2"},
+					"騙し騙し頑張っていたらしい」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"潤", "Jun"},
+					[["Yeah, although she hadn't been feeling well for a while, she was doing her best to get though it on her own."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00025",
+		linknext = "0005_00027",
+		line = 227,
+	},
+	["0005_00027"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_jun_00008", ch="jun"},
+			},
+			ja = {
+				{
+					name = {"潤"},
+					"「それがいよいよ疲労が溜まったみたいでな。",
+					{"rt2"},
+					"まぁ、そこまで深刻じゃないらしいんだけど」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"潤", "Jun"},
+					[["Apparently she finally got worn out. Anyway, it doesn’t seem very serious."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00026",
+		linknext = "0005_00028",
+		line = 235,
+	},
+	["0005_00028"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00010", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「深刻じゃなくても心配だよ。",
+					{"rt2"},
+					"どのくらい入院しそうなの？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Even if it isn't serious, I'm still worried about her. How long is she going to be in the hospital?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00027",
+		linknext = "0005_00029",
+		line = 243,
+	},
+	["0005_00029"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_jun_00009", ch="jun"},
+			},
+			ja = {
+				{
+					name = {"潤"},
+					"「2～3週間程度だって言ってたけど……",
+					{"rt2"},
+					"どうだろうな」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"潤", "Jun"},
+					[["She said it's gonna be two or three weeks, but… who knows?."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00028",
+		linknext = "0005_00030",
+		line = 251,
+	},
+	["0005_00030"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00011", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「2～3週間って少し長いけど",
+					{"rt2"},
+					"本当に大丈夫なの？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Two or three weeks is kind of a long time.. Are you sure it's nothing serious?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00029",
+		linknext = "0005_00031",
+		line = 259,
+	},
+	["0005_00031"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_jun_00010", ch="jun"},
+			},
+			ja = {
+				{
+					name = {"潤"},
+					"「ああ、一応はそう聞いてるが",
+					{"rt2"},
+					"行ってみないと分からないな」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"潤", "Jun"},
+					[["Well, that’s what I was told, but we won't know until we go there."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00030",
+		linknext = "0005_00032",
+		line = 267,
+	},
+	["0005_00032"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"姉ちゃんの言葉に不安が大きくなる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"My sister was making me feel anxious.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00031",
+		linknext = "0005_00033",
+		line = 273,
+	},
+	["0005_00033"] = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0, pass=2},
+		{"bg", y=180, file="zbg04a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"fg", ch="純", size="z1", mode=3, resize=1, path=":fg/", file="sum_0", face="困りＡ", lv=4, id=16, sync=0, pass=2},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00012", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「緊急手術とか……",
+					{"rt2"},
+					"そういうことじゃない……よね？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["She isn't getting emergency surgery or anything like that, ... right?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00032",
+		linknext = "0005_00034",
+		line = 288,
+	},
+	["0005_00034"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_jun_00011", ch="jun"},
+			},
+			ja = {
+				{
+					name = {"潤"},
+					"「心配するな。そういうことはないらしい。",
+					{"rt2"},
+					"ただ自由に動けない程度だとは聞いてる」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"潤", "Jun"},
+					[["Don't worry. It's nothing like that. From what I've heard, she just can't move freely."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00033",
+		linknext = "0005_00035",
+		line = 296,
+	},
+	["0005_00035"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00013", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「おばあちゃん……",
+					{"rt2"},
+					"ただでさえ一人暮らしなのに不便じゃ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Oh Grandma... It looks like it's going to be even harder for her to manage living alone…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00034",
+		linknext = "0005_00036",
+		line = 304,
+	},
+	["0005_00036"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_jun_00012", ch="jun"},
+			},
+			ja = {
+				{
+					name = {"潤"},
+					"「そうだな。そこも含めて私たちが",
+					{"rt2"},
+					"今、荷造りしてるんだ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"潤", "Jun"},
+					[["That's right. That’s part of the reason why we're packing now."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00035",
+		linknext = "0005_00037",
+		line = 312,
+	},
+	["0005_00037"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00014", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「そうか……ってことは、",
+					{"rt2"},
+					"これからおばあちゃん家に",
+					{"rt2"},
+					"泊まり込むってこと？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["So... Does that mean we're going to stay at her house from now on?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00036",
+		linknext = "0005_00038",
+		line = 321,
+	},
+	["0005_00038"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_jun_00013", ch="jun"},
+			},
+			ja = {
+				{
+					name = {"潤"},
+					"「ああ、こういうことが出来るのは",
+					{"rt2"},
+					"私たちしかいないだろう」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"潤", "Jun"},
+					[["Yeah, well we're the only ones who can do something like this for her."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00037",
+		linknext = "0005_00039",
+		line = 329,
+	},
+	["0005_00039"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"僕を見つめながら言う姉ちゃんに、",
+					{"rt2"},
+					"はっきりと頷いてみせる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I give a firm nod to my sister who looks directly at me as she speaks.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00038",
+		linknext = "0005_00040",
+		line = 336,
+	},
+	["0005_00040"] = {
+		{"msgoff"},
+		{"colortone", style="reset"},
+		{"bg", lv=8, id=7, file="white", time=1000, sync=1, path=":bg/"},
+		{"cgdel", lv=8, id=7, time=1000},
+		{"bg", file="bg08a", path=":bg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_jun_00014", ch="jun"},
+			},
+			ja = {
+				{
+					name = {"潤"},
+					"「わかったなら、早く荷造りしろ。",
+					{"rt2"},
+					"まずは病院に見舞いに行くぞ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"潤", "Jun"},
+					[["So if you get the picture now, pack up quickly. We're going to the hospital first!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00039",
+		linknext = "0005_00041",
+		line = 347,
+	},
+	["0005_00041"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"いつもながら突然かつ強引な姉ちゃんに",
+					{"rt2"},
+					"振り回されつつも、僕だっておばあちゃんの",
+					{"rt2"},
+					"ことは心配だ。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I was annoyed to be bossed around by my sister so suddenly like this, but I also felt worried about my Grandma.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00040",
+		linknext = "0005_00042",
+		line = 355,
+	},
+	["0005_00042"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00015", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"（夏休み中だったことが、",
+					{"rt2"},
+					"ある意味、不幸中の幸いだったかもな）",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					"(I should be grateful that this was happening during summer vacation at least)",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00041",
+		linknext = "0005_00043",
+		line = 363,
+	},
+	["0005_00043"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_jun_00015", ch="jun"},
+			},
+			ja = {
+				{
+					name = {"潤"},
+					"「小さい頃、ばあちゃん家行った時みたいに",
+					{"rt2"},
+					"パンツ忘れんなよ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"潤", "Jun"},
+					[["Don't forget to bring underwear like you did when we went there when you were younger."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00042",
+		linknext = "0005_00044",
+		line = 371,
+	},
+	["0005_00044"] = {
+		{"quake", mode="mw"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00016", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「なっ……一番最初に入れてるよ！」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Hey… ! I put it in first!"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00043",
+		linknext = "0005_00045",
+		line = 380,
+	},
+	["0005_00045"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そんなことを言われつつ……",
+					{"rt2"},
+					"荷物をまとめ。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I packed up my luggage while enduring such comments.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00044",
+		linknext = "0005_00046",
+		line = 387,
+	},
+	["0005_00046"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"早速少し離れたところにある",
+					{"rt2"},
+					"おばあちゃんの街を目指したのだった。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"We soon left and headed towards the town our Ggrandma lives in, which was a little ways away.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0005_00045",
+		linknext = "block_00046",
+		line = 394,
+	},
+	block_00046 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="main02"},
+		{"text"},
+		linkback = "0005_00046",
+		line = 398,
+	},
+	label = {
+		top = { block="0005_00001", label=1 },
+	},
+}

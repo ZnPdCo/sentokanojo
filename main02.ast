@@ -1,0 +1,1879 @@
+astver = 2.0
+ast = {
+	["0006_00001"] = {
+		{"savetitle", text="Chapter. 2"},
+		{"se", file="se034", time=1500, loop=1, id=2},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0, pass=2},
+		{"bg", file="bg02a", path=":bg/", sync=0},
+		{"fg", ch="あさひ", size="no", mode=3, resize=1, path=":fg/", file="asa_6", face="通常Ｃ", lv=3, id=16, sync=0, pass=2},
+		{"extrans", time=2000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00017", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「おばあちゃん",
+					{"rt2"},
+					"本当に何ともなくて良かった……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Grandma! I'm so glad you're okay… "]],
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "0006_00002",
+		line = 27,
+	},
+	["0006_00002"] = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"fg", mode=-2, sync=0, pass=2},
+		{"bg", file="bg09a", path=":bg/", sync=0},
+		{"bg", file="reco", id=1, lv=5, path=":sys/", sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"家を出て数時間、辿り着いた病室では",
+					{"rt2"},
+					"おばあちゃんが元気な顔で出迎えてくれた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"A few hours after we left home, Grandma welcomed us with a cheerful smile in her hospital room.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00001",
+		linknext = "0006_00003",
+		line = 43,
+	},
+	["0006_00003"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"足腰以外は本当にいつも通りで、",
+					{"rt2"},
+					"僕らはすっかり安心した。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Except for her back and legs, she seemed perfectly normal. We were relieved.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00002",
+		linknext = "0006_00004",
+		line = 50,
+	},
+	["0006_00004"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"でもおばあちゃんは",
+					{"rt2"},
+					"心配そうな顔で『姫ノ湯』のことを",
+					{"rt2"},
+					"話していた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					[[But when she started talking about "Himenoyu", she looked worried.]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00003",
+		linknext = "0006_00005",
+		line = 58,
+	},
+	["0006_00005"] = {
+		{"se", stop=1, time=1500, id=2},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"bg", y=360, speed=60000, file="zbg02a", path=":bg/", x2=250, y2=-360, x=250, ax=1280, ay=720, bx=-640, by=-360},
+		{"bgm", file="bgm03"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ここ『",
+					{"ruby", text="ひめのゆ"},
+					"姫ノ湯",
+					{"/ruby"},
+					"』は",
+					{"rt2"},
+					"おばあちゃんがやっている銭湯。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					[["Himenoyu" is a public bath Grandma runs here.]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00004",
+		linknext = "0006_00006",
+		line = 77,
+	},
+	["0006_00006"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"おばあちゃんのおばあちゃんの時代から",
+					{"rt2"},
+					"やっていたというから、歴史はかなり古い。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It was opened by Grandma's grandmother, so it has a long history.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00005",
+		linknext = "0006_00007",
+		line = 84,
+	},
+	["0006_00007"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"地下水を汲み上げて温めている銭湯だけど、",
+					{"rt2"},
+					"そのいわれのおかげか、ご近所の人たちにも",
+					{"rt2"},
+					"かなり人気だ。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It's a public bath that pumps up groundwater and warms it, but thanks to its venerable legend, it's quite popular with the locals.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00006",
+		linknext = "0006_00008",
+		line = 92,
+	},
+	["0006_00008"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00018", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「女神様がつかっていた泉……だっけ？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["The fountain the goddess bathed in… isn't it?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00007",
+		linknext = "0006_00009",
+		line = 99,
+	},
+	["0006_00009"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"その昔、この地下水でできた泉は",
+					{"rt2"},
+					"女神様が利用していたという。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It is said that a long time ago, a goddess used this source of water to bathe in.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00008",
+		linknext = "0006_00010",
+		line = 106,
+	},
+	["0006_00010"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そのおかげか、昔から女性には特に",
+					{"rt2"},
+					"美肌効果や豊胸効果、安産効果があるという",
+					{"rt2"},
+					"言い伝えがある。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Thanks to that legend, there is a long-standing belief that the water has skin-beautifying and breast augmentation effects. It is also said to help make childbirth easier.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00009",
+		linknext = "0006_00011",
+		line = 114,
+	},
+	["0006_00011"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"だからこそ、お年寄りだけでなく若い人たち。",
+					{"rt2"},
+					"特に女性にも人気があって……。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"That is why it has been popular not only among the elderly but also the young. In particular, it's popular with women...",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00010",
+		linknext = "0006_00012",
+		line = 121,
+	},
+	["0006_00012"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00019", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「それで姫ノ湯。うん、いい名前だよな」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["That's why it's called Himenoyu. It means `Princess' Bath`. Yeah, it's a good name."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00011",
+		linknext = "0006_00013",
+		line = 128,
+	},
+	["0006_00013"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00020", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「でも……美肌はともかく、若い女の子たちも",
+					{"rt2"},
+					"安産とかに興味あるのかな？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["But... aside from beautiful skin, are young girls really also interested in easy delivery?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00012",
+		linknext = "0006_00014",
+		line = 136,
+	},
+	["0006_00014"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"男の僕にはちょっとよく分からないけれど。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"To me as a guy, I'm not sure.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00013",
+		linknext = "0006_00015",
+		line = 142,
+	},
+	["0006_00015"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"おばあちゃんが退院後、",
+					{"rt2"},
+					"この銭湯を続けるかどうか……。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"But, after Grandma is discharged from the hospital, whether she will continue running this public bath or not...",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00014",
+		linknext = "0006_00016",
+		line = 149,
+	},
+	["0006_00016"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それはまだ分からないけれど",
+					{"rt2"},
+					"設備の維持だけはお願いしたいと",
+					{"rt2"},
+					"言ってきたのだ。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I don't know yet, but she asked us only to take care of the equipment for now.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00015",
+		linknext = "0006_00017",
+		line = 157,
+	},
+	["0006_00017"] = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0, pass=2},
+		{"bg", file="bg02a", path=":bg/", sync=0},
+		{"fg", ch="あさひ", size="no", mode=3, path=":fg/", file="asa_6", face="無表情Ｃ", lv=3, id=16, sync=0, pass=2},
+		{"extrans"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00021", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「とりあえず病院のことは姉ちゃんが",
+					{"rt2"},
+					"やってくれるって言ってたし、",
+					{"rt2"},
+					"僕はこっちを見て回ろう」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["For the time being, Jun said that she would stay with Grandma at the hospital, so I'll take a look around here."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00016",
+		linknext = "0006_00018",
+		line = 173,
+	},
+	["0006_00018"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"病院に残った姉ちゃんに先立って、",
+					{"rt2"},
+					"ひとまず僕だけがおばあちゃんの家、",
+					{"rt2"},
+					"姫ノ湯へとやってきた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Prior to Jun, who stayed at the hospital, I came to my Ggrandma's house, Himenoyu, alone.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00017",
+		linknext = "0006_00019",
+		line = 181,
+	},
+	["0006_00019"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"こういうことが出来るのは",
+					{"rt2"},
+					"確かに僕たち姉弟しかいない。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It is certain that my sister and I are the only ones that can help out in this way.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00018",
+		linknext = "0006_00020",
+		line = 188,
+	},
+	["0006_00020"] = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"fg", mode=-2, sync=0, pass=2},
+		{"bg", file="black", path=":bg/", sync=0},
+		{"fg", ch="あさひ", size="no", mode=3, path=":fg/", file="asa_6", face="通常Ｃ", x=-300, lv=3, id=11, sync=0, pass=2},
+		{"fg", ch="潤", size="no", mode=3, path=":fg/", file="jun_0", face="通常Ａ", x=300, lv=3, id=12, sync=0, pass=2},
+		{"bg", file="reco", id=1, lv=5, path=":sys/", sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"僕と姉ちゃんは、",
+					{"rt2"},
+					"ただいま二人暮らし。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"It's just the two of us living together now.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00019",
+		linknext = "0006_00021",
+		line = 206,
+	},
+	["0006_00021"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"というのも、両親が海外出張中で、",
+					{"rt2"},
+					"数ヶ月後まで日本にいないからだ。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Because our parents are on a business trip overseas and won't be back in Japan for a few months.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00020",
+		linknext = "0006_00022",
+		line = 213,
+	},
+	["0006_00022"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"で、僕は夏休みで、姉ちゃんは在宅ワーク。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"And now I'm on summer vacation and my sister works from home.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00021",
+		linknext = "0006_00023",
+		line = 219,
+	},
+	["0006_00023"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そこで夏休みの間だけでもこの家に寝泊まりし、",
+					{"rt2"},
+					"その後は両親が帰ってくるまでおばあちゃんの",
+					{"rt2"},
+					"面倒を極力見る……ということに決めた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"So I decided to stay here in this house during the summer vacation, and then take care of Grandma as much as possible until my parents come back.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00022",
+		linknext = "0006_00024",
+		line = 227,
+	},
+	["0006_00024"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"あと、おばあちゃんにお願いされた通り、",
+					{"rt2"},
+					"設備の維持も必要だ。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Also, as Grandma asked, I need to take care of the equipment at the bathhouse.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00023",
+		linknext = "0006_00025",
+		line = 234,
+	},
+	["0006_00025"] = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"fg", mode=-2, sync=0, pass=2},
+		{"bg", file="bg02a", path=":bg/", sync=0},
+		{"fg", ch="あさひ", size="no", mode=3, path=":fg/", file="asa_6", face="通常Ｃ", lv=3, id=11, sync=0, pass=2},
+		{"extrans"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00022", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「それにしても、本当に久しぶりだな」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Well, it really has been a while."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00024",
+		linknext = "0006_00026",
+		line = 248,
+	},
+	["0006_00026"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"改めて外から見ると、",
+					{"rt2"},
+					"ずいぶんと年季の入った建物だとわかる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Looking at the house from the outside again, I noticed how old it was.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00025",
+		linknext = "0006_00027",
+		line = 255,
+	},
+	["0006_00027"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"記憶の中にある建物は",
+					{"rt2"},
+					"もっと大きかった気がするけれど、",
+					{"rt2"},
+					"それはきっと僕が小さかったせいだ。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"In my memory the building was bigger than this, I thought, but it was probably because my memory was from when I was smaller.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00026",
+		linknext = "0006_00028",
+		line = 263,
+	},
+	["0006_00028"] = {
+		{"fg", ch="あさひ", size="no", mode=3, path=":fg/", file="asa_6", face="目が星Ｃ", lv=3, id=11},
+		{"fgact", ch="あさひ", act="うなづく", lv=3, id=11},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00023", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「なんだかテンション上がってくるなぁ」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["I feel excited for some reason."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00027",
+		linknext = "0006_00029",
+		line = 273,
+	},
+	["0006_00029"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"おばあちゃんが元気そうだったこともあるけど、",
+					{"rt2"},
+					"いつもと違う生活に少しだけ気分が高揚する。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I was happy that my grandmother was doing ok, but I also felt excited to have this kind of change in my life.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00028",
+		linknext = "0006_00030",
+		line = 280,
+	},
+	["0006_00030"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"これからしばらくここで暮らせるのかと思うと、",
+					{"rt2"},
+					"それはそれで楽しそうだ。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"The idea of living here for a while seemed fun.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00029",
+		linknext = "0006_00031",
+		line = 287,
+	},
+	["0006_00031"] = {
+		{"fg", ch="あさひ", size="no", mode=3, path=":fg/", file="asa_6", face="苦笑いＣ", lv=3, id=11},
+		{"fgact", ch="あさひ", act="おじぎ", lv=3, id=11},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00024", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"（自己管理の出来ないやつが",
+					{"rt2"},
+					"夏休みに入ったのをいいことに",
+					{"rt2"},
+					"自堕落にふけるよりはいいよな）",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["It'll be good for someone like you who can't take care of himself and has nothing to do over summer break. You’ve been living like a complete slob."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00030",
+		linknext = "0006_00032",
+		line = 300,
+	},
+	["0006_00032"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"と、姉ちゃんに言われたことを",
+					{"rt2"},
+					"思い出しつつ……。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I remembered what Jun had said…",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00031",
+		linknext = "0006_00033",
+		line = 307,
+	},
+	["0006_00033"] = {
+		{"bg", y=-360, speed=30000, file="zbg02a", path=":bg/", x2=400, y2=-360, x=200, ax=1280, ay=720, bx=-640, by=-360},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00025", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「…………」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					"“… ”",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00032",
+		linknext = "0006_00034",
+		line = 318,
+	},
+	["0006_00034"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00026", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「そっか……",
+					{"rt2"},
+					"今は営業してないんだもんな……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Oh, right... It's not open now…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00033",
+		linknext = "0006_00035",
+		line = 326,
+	},
+	["0006_00035"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"落ち着いて眺めていると",
+					{"rt2"},
+					"閉店中っていうのは少し寂しい。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"When I looked at the bathhouse, I felt a little sad to see it closed.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00034",
+		linknext = "0006_00036",
+		line = 333,
+	},
+	["0006_00036"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"賑やかな景色しか知らなかっただけに、",
+					{"rt2"},
+					"余計もの悲しい気分になってしまう。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Because all my memories of this place were of a lively, active public bath , the current situation made me feel all the more down.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00035",
+		linknext = "0006_00037",
+		line = 340,
+	},
+	["0006_00037"] = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0, pass=2},
+		{"bg", file="bg02a", path=":bg/", sync=0},
+		{"fg", ch="あさひ", size="no", mode=3, path=":fg/", file="asa_6", face="考えるＣ", lv=3, id=11, sync=0, pass=2},
+		{"extrans"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00027", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「おばあちゃん、",
+					{"rt2"},
+					"早く元気になるといいけど……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Grandma... I hope she'll get better soon… "]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00036",
+		linknext = "0006_00038",
+		line = 355,
+	},
+	["0006_00038"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"おじいさん"},
+					"「ん？　お兄さんも姫ノ湯に",
+					{"rt2"},
+					"入りに来たのかい？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"おじいさん", "Grandfather"},
+					[["Mm? Young man, did you come here to take a bath to Himenoyu?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00037",
+		linknext = "0006_00039",
+		line = 363,
+	},
+	["0006_00039"] = {
+		{"fg", ch="あさひ", size="no", mode=3, path=":fg/", file="asa_6", face="無表情Ｃ", lv=3, id=11},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00028", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「え？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Huh?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00038",
+		linknext = "0006_00040",
+		line = 372,
+	},
+	["0006_00040"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"切なくなりながら見つめていたら、",
+					{"rt2"},
+					"通りがかりのおじいさんに声を掛けられた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"While I was staring in front of the buidling with a pained look on my face, I was approached by an old man passing by.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00039",
+		linknext = "0006_00041",
+		line = 379,
+	},
+	["0006_00041"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"おじいさん"},
+					"「昨日も休業じゃったから、",
+					{"rt2"},
+					"今日はどうかなと思って来たんだが……",
+					{"rt2"},
+					"やっぱり休みか……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"おじいさん", "Grandfather"},
+					[["It was closed yesterday, so I thought I would come back again today... As I thought, it's closed today, too… "]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00040",
+		linknext = "0006_00042",
+		line = 388,
+	},
+	["0006_00042"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"おじいさん"},
+					"「寂しいのう。早く再開して欲しいが……",
+					{"rt2"},
+					"お兄さんもそうなんじゃろ？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"おじいさん", "Grandfather"},
+					[["It's a shame, isn't it? I hope she can open up again soon... Don't you think so?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00041",
+		linknext = "0006_00043",
+		line = 396,
+	},
+	["0006_00043"] = {
+		{"fg", ch="あさひ", size="no", mode=3, path=":fg/", file="asa_6", face="通常Ｃ", lv=3, id=11},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fgact", ch="あさひ", act="うなづく", lv=3, id=11},
+			},
+			vl02 = {
+				{"fg", ch="あさひ", size="no", mode=3, path=":fg/", file="asa_6", face="ジト目Ｃ", lv=3, id=11},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00029", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「あ……はい。そうですね。",
+					{"rt2"},
+					"閉店してるのは寂しいですよね……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Ah... yes. That's right. It's a shame that it's closed, isn't it?..."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00042",
+		linknext = "0006_00044",
+		line = 408,
+	},
+	["0006_00044"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"おじいさん"},
+					"「ふむ……毎日これが",
+					{"rt2"},
+					"楽しみだったんじゃよ……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"おじいさん", "Grandfather"},
+					[["Hmm... I looked forward to coming here every day… "]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00043",
+		linknext = "0006_00045",
+		line = 416,
+	},
+	["0006_00045"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そう言うと、おじいさんは",
+					{"rt2"},
+					"とぼとぼと歩いて行ってしまった。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"With that, the old man trudged away wearily.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00044",
+		linknext = "0006_00046",
+		line = 423,
+	},
+	["0006_00046"] = {
+		{"fg", ch="あさひ", size="no", mode=3, path=":fg/", file="asa_6", face="考えるＣ", lv=3, id=11},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00030", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「…………」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					"“… ”",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00045",
+		linknext = "0006_00047",
+		line = 432,
+	},
+	["0006_00047"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"その後ろ姿を見送りながら、",
+					{"rt2"},
+					"もう一度、自分の記憶にある姫ノ湯を",
+					{"rt2"},
+					"思い出す。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Watching him walk away, my own memories of Himenoyu flooded back into my head.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00046",
+		linknext = "0006_00048",
+		line = 440,
+	},
+	["0006_00048"] = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"bg", y=-360, x=250, file="zbg02e", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
+		{"bg", file="white", alpha=80, id=1, lv=5, path=":bg/", sync=0},
+		{"bg", file="reco", id=1, lv=5, path=":sys/", sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そこはいつも人が大勢いて、",
+					{"rt2"},
+					"楽しげで、賑やかで、きらきらしていた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"There were always a lot of people there, and they looked happy and lively.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00047",
+		linknext = "0006_00049",
+		line = 454,
+	},
+	["0006_00049"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00031", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"（おばあちゃんの姫ノ湯……",
+					{"rt2"},
+					"たくさんの人に愛されてたんだなぁ……）",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					"(Grandma's Himenoyu... So many people have loved it over the years… )",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00048",
+		linknext = "0006_00050",
+		line = 462,
+	},
+	["0006_00050"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そんなことを考えると、",
+					{"rt2"},
+					"ますます切なくなってしまう。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"With that in mind, I just felt sadder and sadder.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00049",
+		linknext = "0006_00051",
+		line = 469,
+	},
+	["0006_00051"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それもおばあちゃんが退院するまでだ。",
+					{"rt2"},
+					"そうすればきっとまた活気が戻ってくるに",
+					{"rt2"},
+					"決まってる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"But it's only until Grandma gets out of the hospital. I'm sure this place will regain that liveliness when she's back.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00050",
+		linknext = "0006_00052",
+		line = 477,
+	},
+	["0006_00052"] = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="white", path=":bg/"},
+		{"fg", mode=-2, sync=0, pass=2},
+		{"bg", file="bg02a", path=":bg/", sync=0},
+		{"fg", ch="あさひ", size="no", mode=3, path=":fg/", file="asa_6", face="通常Ｃ", lv=3, id=11, sync=0, pass=2},
+		{"extrans"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00032", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「それまできちんと",
+					{"rt2"},
+					"出来る限り管理はしていよう」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["So, I'll take care of it as best as I can."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00051",
+		linknext = "0006_00053",
+		line = 492,
+	},
+	["0006_00053"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"寂しい気分を吹き飛ばすように呟いて、",
+					{"rt2"},
+					"入り口の鍵を開けた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Muttering to myself, trying to get out of my lonely mood, I unlocked the door.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00052",
+		linknext = "0006_00054",
+		line = 499,
+	},
+	["0006_00054"] = {
+		{"bgm", stop=1},
+		{"se", file="se001", id=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="083r", wait=300, file="black", path=":bg/", vague=40},
+		{"bg", y=100, speed=120000, rule="083r", vague=40, file="zbg03a", path=":bg/", x2=640, y2=100, x=-640, ax=1280, ay=720, bx=-640, by=-360},
+		{"bgm", file="bgm02"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00033", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「番台も変わらないな」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["The attendant's booth looks the same."]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00053",
+		linknext = "0006_00055",
+		line = 519,
+	},
+	["0006_00055"] = {
+		{"se", stop=1, time=500, id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"いつ来ても変わらない番台に触れながら",
+					{"rt2"},
+					"すごく小さな頃のことを思い出す。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Touching the attendant's booth that had never changed since I was young, more memories from my childhood came back to me.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00054",
+		linknext = "0006_00056",
+		line = 528,
+	},
+	["0006_00056"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"あの頃はよく番台に座るおばあちゃんの",
+					{"rt2"},
+					"膝の上に乗っていたっけ？",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Back then, I often sat on Grandma's lap while she was sitting there, isn't that right…?",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00055",
+		linknext = "0006_00057",
+		line = 535,
+	},
+	["0006_00057"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"といっても、今は当然、誰もいない。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"But now, of course, there's nobody here.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00056",
+		linknext = "0006_00058",
+		line = 541,
+	},
+	["0006_00058"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"この銭湯の由来のせいもあってか、",
+					{"rt2"},
+					"実はこの姫ノ湯の番台は女性が",
+					{"rt2"},
+					"立つようにといわれている。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Perhaps because of the origin of this sento, women have been allowed to work at the attendant's booth.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00057",
+		linknext = "0006_00059",
+		line = 549,
+	},
+	["0006_00059"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"女性客が多いのも若干は",
+					{"rt2"},
+					"そのおかげなのかもしれない。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"That might be one reason reason why there are so many female customers.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00058",
+		linknext = "0006_00060",
+		line = 556,
+	},
+	["0006_00060"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"やっぱり男が立ってるよりは",
+					{"rt2"},
+					"女性の方が入りやすいんだろうなぁ。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"After all, females might feel more comfortable going in than if there was a man behind the counter.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00059",
+		linknext = "0006_00061",
+		line = 563,
+	},
+	["0006_00061"] = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00034", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「あ、そういえば、おばあちゃんと",
+					{"rt2"},
+					"おじいちゃんの出会いも",
+					{"rt2"},
+					"ここだったんだっけ？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Oh, right, didn’t Grandma and Grandpa first meet here at Himenoyu?]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00060",
+		linknext = "0006_00062",
+		line = 572,
+	},
+	["0006_00062"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"確か当時お客さんとして来ていた",
+					{"rt2"},
+					"おじいちゃんに対して",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"My grandmother must have fallen for my grandfather,",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00061",
+		linknext = "0006_00063",
+		line = 579,
+	},
+	["0006_00063"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"番台に座っていたおばあちゃんが",
+					{"rt2"},
+					"猛アタックしたとかなんとか……。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"who was coming here as a customer at the time, while sitting here in this chair.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00062",
+		linknext = "0006_00064",
+		line = 586,
+	},
+	["0006_00064"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それで付き合うようになってからも、",
+					{"rt2"},
+					"二人で時間を決めて姫ノ湯へ入ることが",
+					{"rt2"},
+					"あったらしい。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I also remember hearing that even after they started dating, they planned times they could meet at Himenoyu.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00063",
+		linknext = "0006_00065",
+		line = 594,
+	},
+	["0006_00065"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"だからおばあちゃんにとってもすごく",
+					{"rt2"},
+					"思い入れのある銭湯なんだよ、と",
+					{"rt2"},
+					"小さな頃からよく聞かされていた。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"That's why this bathhouse has a special sentimental value for Grandma, so I've been heard from a young age.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00064",
+		linknext = "0006_00066",
+		line = 602,
+	},
+	["0006_00066"] = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0, pass=2},
+		{"bg", file="bg03a", path=":bg/", sync=0},
+		{"fg", ch="あさひ", size="no", mode=3, path=":fg/", file="asa_6", face="考えるＣ", lv=3, id=11, sync=0, pass=2},
+		{"extrans"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00035", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「おばあちゃん、ここを残して",
+					{"rt2"},
+					"入院だなんて……本当に心配だろうな」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Oh Grandma, she must be really worried about being away from here while she's in the hospital…"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00065",
+		linknext = "0006_00067",
+		line = 617,
+	},
+	["0006_00067"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"などと考えながら周囲を見ていると……。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"With those thoughts on my mind, I looked around...",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00066",
+		linknext = "0006_00068",
+		line = 623,
+	},
+	["0006_00068"] = {
+		{"bgm", stop=1},
+		{"se", file="se019", vol=50, id=1},
+		{"fg", ch="あさひ", size="no", mode=3, path=":fg/", file="asa_6", face="ドキドキＣ", lv=3, id=11},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00036", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「ん……？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Mm… ?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00067",
+		linknext = "0006_00069",
+		line = 638,
+	},
+	["0006_00069"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"どこからともなく、音が聞こえてくる。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I hear a sound coming from out of nowhere.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00068",
+		linknext = "0006_00070",
+		line = 644,
+	},
+	["0006_00070"] = {
+		{"fg", ch="あさひ", size="no", mode=3, path=":fg/", file="asa_6", face="ジト目Ｃ", lv=3, id=11},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00037", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「これは……なんの音？」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["What's... that sound?"]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00069",
+		linknext = "0006_00071",
+		line = 653,
+	},
+	["0006_00071"] = {
+		{"se", stop=1, time=500, id=1},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"まさか何かの設備が動いてるとか？",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"Is there any equipment in operation?",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00070",
+		linknext = "0006_00072",
+		line = 661,
+	},
+	["0006_00072"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"いや、たった今、",
+					{"rt2"},
+					"確かに鍵を開けたばかりだ。",
+					{"rt2"},
+					"それはないはず……。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"No, it can't be. I've just walked in, so...",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00071",
+		linknext = "0006_00073",
+		line = 669,
+	},
+	["0006_00073"] = {
+		{"se", file="se019", vol=50, id=1},
+		{"fg", ch="あさひ", size="no", mode=3, path=":fg/", file="asa_6", face="ドキドキＣ", lv=3, id=11},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_00038", ch="asa"},
+			},
+			ja = {
+				{
+					name = {"あさひ"},
+					"「だったら……」",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					name = {"あさひ", "Asahi"},
+					[["Well, then… "]],
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00072",
+		linknext = "0006_00074",
+		line = 682,
+	},
+	["0006_00074"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一体なんなんだろう？",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"What the hell is that?",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00073",
+		linknext = "0006_00075",
+		line = 688,
+	},
+	["0006_00075"] = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"謎の音の原因を探るべく、",
+					{"rt2"},
+					"男湯の方へと歩いて行く。",
+					{"rt2"},
+				},
+			},
+			en = {
+				{
+					"I walk toward the men's bath to find the cause of the mysterious sound.",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "0006_00074",
+		linknext = "block_00075",
+		line = 695,
+	},
+	block_00075 = {
+		{"se", stop=1, time=500, id=1},
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="main03"},
+		{"text"},
+		linkback = "0006_00075",
+		line = 700,
+	},
+	label = {
+		top = { block="0006_00001", label=1 },
+	},
+}

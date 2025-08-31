@@ -1,0 +1,19 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"bgm", file="bgm10"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="man_asa_01228", ch="asa"},
+				{"vo", file="fem_chi_01117", ch="chi"},
+				{"vo", file="fem_jun_00124", ch="jun"},
+				{"vo", file="fem_sum_00042", ch="sum"},
+			},
+		},
+		line = 8,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}
